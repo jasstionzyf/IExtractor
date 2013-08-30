@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: IExtractor
+Bundle-SymbolicName: IExtractor
+Bundle-Version: 1.0.0.qualifier
+Export-Package: src.main.java.com.yufei.extractor.component,
+ src.main.java.com.yufei.extractor.component.pExtractor,
+ src.main.java.com.yufei.extractor.core,
+ src.main.java.com.yufei.extractor.entity,
+ src.main.resources,
+ src.main.resources.conf,
+ src.test.java,
+ target,
+ target.classes,
+ target.classes.conf

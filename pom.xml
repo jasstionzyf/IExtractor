@@ -220,12 +220,11 @@
 	<properties>
 		
 
-		<project.lib>F:\work\runner\lib</project.lib>
-		<project.outputDirectory>F:\work\runner</project.outputDirectory>
+
 		<project.name>InfoExtractor-1.0.0</project.name>
-		<dependencies.dependency.cron4j.systemPath>F:\\work\\runner\\lib\\cron4j-2.2.5.jar</dependencies.dependency.cron4j.systemPath>
+		<dependencies.dependency.cron4j.systemPath>/home/jasstion/data/libary/cron4j-2.2.5.jar</dependencies.dependency.cron4j.systemPath>
  		
-    <dependencies.dependency.swt.systemPath>F:\\work\\runner\\lib\\swt.jar</dependencies.dependency.swt.systemPath>
+    <dependencies.dependency.swt.systemPath>/home/jasstion/data/libary/swt.jar</dependencies.dependency.swt.systemPath>
 
 
 
