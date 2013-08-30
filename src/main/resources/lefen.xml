@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+   
+			
+
+			
+			
+		
+              <seedsite>
+              <mallId>8</mallId>
+                 <domain>www.lefeng.com</domain>
+                  <siteDesc>http://www.lefeng.com/</siteDesc>
+                    <siteName>http://www.lefeng.com/</siteName>
+                    <status>0</status>
+              <urlExtractorCfg>
+      
+<urlRegexes>
+<urlRegex>href="(http://[\w \.]{0,}?lefeng.*?)"</urlRegex>
+</urlRegexes>
+<ulLinkRegexes>
+<ulLinkRegex>.*?/product/[\d]+\.html</ulLinkRegex>
+<!-- http://product.lefeng.com/product/192430.html -->
+</ulLinkRegexes>
+<idRegex>/product/([\d]+)\.html</idRegex>
+
+<catalogLinkRegexes></catalogLinkRegexes>
+			  <depth>30</depth>
+             <paginationRule></paginationRule>
+			</urlExtractorCfg>
+           
+                    
+					<dataRetrieverFeatures>
+					 <proxyServerIdentity></proxyServerIdentity>
+                    <requestExecuteJs>false</requestExecuteJs>
+					<requestTimeout>10000</requestTimeout>
+					<isCookiesSupport>false</isCookiesSupport>
+					<connectionTimeout>10000</connectionTimeout>
+					<connectIntervalTime>0</connectIntervalTime>
+					<requestType>get</requestType>
+					              <retryCount>2</retryCount>
+					
+					</dataRetrieverFeatures>
+                   
+                   
+                </seedsite>
+			
+   
+ 
+

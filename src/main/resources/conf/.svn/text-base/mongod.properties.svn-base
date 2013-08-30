@@ -1,0 +1,10 @@
+mongo.host=localhost
+mongo.port=27017
+mongo.connectionsPerHost=12
+mongo.threadsAllowedToBlockForConnectionMultiplier=10
+mongo.connectTimeout=0
+mongo.maxWaitTime=1000*5
+mongo.autoConnectRetry=3
+mongo.socketKeepAlive=0
+mongo.socketTimeout=0
+mongo.slaveOk=false
