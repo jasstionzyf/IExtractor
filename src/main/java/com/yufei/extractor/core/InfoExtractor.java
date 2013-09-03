@@ -10,6 +10,8 @@ import javax.management.RuntimeErrorException;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
+import com.yufei.extractor.component.pExtractor.PExtractor;
+import com.yufei.extractor.component.pExtractor.PExtractorFactory;
 import com.yufei.extractor.entity.PropertyMatch;
 import com.yufei.extractor.entity.Seedsite;
 import com.yufei.extractor.entity.UfLink;
@@ -18,6 +20,10 @@ import com.yufei.utils.CommonUtil;
 import com.yufei.utils.ExceptionUtil;
 
 
+/**
+ * @author jasstion
+ * only used to parse the html content and get needed infomation
+ */
 public class InfoExtractor implements Extractor {
 	public static final Log mLog = LogFactory.getLog(InfoExtractor.class);
 
@@ -86,8 +92,14 @@ private void prepare(){
  			if (propertyMatch == null) {
  				continue;
  			}
- 			
-
+ 			PExtractor  pExtractor=PExtractorFactory.getPExtractor(propertyMatch);
+ 			if(pExtractor==null){
+ 				mLog.info("PExtractors not support the type of "+propertyMatch.getMatchType()+"");
+ 				continue;
+ 			}
+ 			Object result=pExtractor.extract(propertyMatch, htmlContent);
+ 			CommonUtil.setPropertyForEntity(savedClass, value, fieldName);
+ 			PfwService.pfwService.save(savedClass);
  		}
 
     	 

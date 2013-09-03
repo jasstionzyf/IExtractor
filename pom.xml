@@ -19,12 +19,16 @@
 
 
 		
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.yufei</groupId>
 	<artifactId>luceneExt</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	</dependency> -->
+	<dependency>
+			<groupId>com.yufei</groupId>
+	<artifactId>pfw</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 	</dependency>
-	
 		<dependency>
 	<groupId>jtidy</groupId>
 	<artifactId>jtidy</artifactId>
@@ -40,7 +44,12 @@
   <groupId>com.yufei</groupId>
   <artifactId>utils</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-       </dependency>     
+       </dependency>   
+       <dependency>
+  <groupId>com.yufei</groupId>
+  <artifactId>dataget</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+       </dependency>       
 
 	
             

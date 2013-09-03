@@ -14,8 +14,9 @@ import org.apache.commons.logging.LogFactory;
 
 import com.yufei.component.repetition.IsRepetive;
 import com.yufei.component.repetition.IsRepetiveBatSet;
+import com.yufei.dataget.entity.PaginationRule;
+import com.yufei.dataget.utils.HtmlUtil;
 import com.yufei.dataretriver.HttpDataRetriever;
-import com.yufei.entity.PaginationRule;
 import com.yufei.extractor.component.DataRetriverPool;
 import com.yufei.extractor.entity.Seedsite;
 import com.yufei.extractor.entity.UfLink;
@@ -44,7 +45,7 @@ public class UrlExtractor implements Extractor {
     	PaginationRule paginationRule=seedSite.getUrlExtractorCfg().getPaginationRule();
 		if(!(paginationRule==null||paginationRule.getPaginationTemplate()==null||paginationRule.getUrlParameters().size()==0)){
 			List<String> urls=null;
-            urls=CommonUtil.generateUrlsByPaginationRule(paginationRule);
+            urls=HtmlUtil.generateUrlsByPaginationRule(paginationRule);
             currentDepthUrls.addAll(urls);
 		}
 		

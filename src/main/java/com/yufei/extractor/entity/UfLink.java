@@ -9,7 +9,7 @@ import org.apache.commons.logging.LogFactory;
 import org.springframework.data.mongodb.core.index.Indexed;
 
 import com.yufei.annotation.QueryEnable;
-import com.yufei.entity.Entity;
+import com.yufei.pfw.entity.Entity;
 public class UfLink extends Entity {
 
 	private static Log mLog = LogFactory.getLog(UfLink.class);
