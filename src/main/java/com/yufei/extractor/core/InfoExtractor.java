@@ -46,7 +46,6 @@ private void prepare(){
 	
 		try {
 			savedClass=Class.forName(entityClaName);
-			savedObj=savedClass.newInstance();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			String message = "实例化类名："+entityClaName+"的类出错！+"+ExceptionUtil.getExceptionDetailsMessage(e)+"";
@@ -74,9 +73,12 @@ private void prepare(){
     	 return;
      }
      for(UfLink ufLink:ufLinks){
+    	 try{
+    		 
     	 if(CommonUtil.isEmptyOrNull(ufLink.getOhc())){
     		 continue;
     	 }
+    	 
     	List<PropertyMatch> propertyMatches =seedSite.getInfoExtractorCfg().getPropertyMatches();
  		List<Field> fileds = CommonUtil.getAllDeclareFields(savedClass);
  		String htmlContent =ufLink.getOhc();
@@ -84,7 +86,10 @@ private void prepare(){
  		String value = null;
  		PropertyMatch propertyMatch = null;
  		String fieldRegex = null;
+ 	    savedObj=savedClass.newInstance();
+
  		for (Field field : fileds) {
+ 			savedClass=null;
  			// collection
  			propertyMatch = PropertyMatch.getPropertyMatchFromListByPropertyName(
  					field.getName(), propertyMatches);
@@ -98,12 +103,23 @@ private void prepare(){
  				continue;
  			}
  			Object result=pExtractor.extract(propertyMatch, htmlContent);
- 			CommonUtil.setPropertyForEntity(savedClass, value, fieldName);
- 			PfwService.pfwService.save(savedClass);
- 		}
+ 			if(result!=null){
+ 				
+ 			} 			CommonUtil.setPropertyForEntity(savedClass, value, fieldName);
+
+
+ 		}//fields set end
+		PfwService.pfwService.save(savedClass);
+
+    	 }catch(Exception e){
+    		 mLog.info("when parser the "+ufLink.getLink()+" error!");
+    		 mLog.debug("error message is "+ExceptionUtil.getExceptionDetailsMessage(e)+"");
+
+    	 }
 
     	 
      }//ufLinks ends
+
 	}
 
 }

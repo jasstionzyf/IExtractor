@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskConfig>
+
+    <tasks>
+        <task>
+            <id></id>
+            <entityFullName>com.yufei.infoExtractor.pfw.entity.Hotel</entityFullName>
+            <intervalPeriodTime>0</intervalPeriodTime>
+            <seedsites>
+			<!--
+			Hotel
+			http://www.amazon.cn/s/ref=sr_nr_scat_665002051_ln?rh=n%3A665002051%2Ck%3A%E6%89%8B%E6%9C%BA&keywords=%E6%89%8B%E6%9C%BA&ie=UTF8&qid=1362277026&scn=665002051&h=0648951bb4af5a5de4cfc515343690a17894b113
+
+<h1[\s\S\r\n]{0,}?>(.*?)</h1>   name
+<div[\s\S\r\n]{0,}?city[\s\S\r\n]{0,}?<h2>(.*?)</h2> city(匹配多个，去第一个)
+   leftTimeAvailabled
+ orderNumber
+itemprop="street-address">(.*?)</span>  area
+<span>¥</span>(.*?)</p>    price
+
+
+<dt>费用</dt>[\s\S\r\n]{0,}?<dd><SPAN[\s\S\r\n]{0,}?</SPAN>(.*?)</dd>  oprice
+ discount
+itemprop="photo"[\s\S\r\n]{0,}?src="(.*?)"   picture
+<div class="block-inner desc-list">([\s\S\r\n]{0,}?)</div>  description
+<span[\s\S\r\n]{0,}?itemprop="count">(.*?)</span>         commentsCount
+
+
+
+
+
+Hotel
+&lt;h1[\s\S\r\n]{0,}?&gt;(.*?)&lt;/h1&gt;     name
+&lt;div[\s\S\r\n]{0,}?city[\s\S\r\n]{0,}?&lt;h2&gt;(.*?)&lt;/h2&gt; city(匹配多个，去第一个)
+剩余时间[\s\S\r\n]{0,}?&lt;b&gt;(.*?)&lt;/b&gt;&lt;/span&gt;   leftTimeAvailabled
+  orderNumber
+itemprop="street-address"&gt;(.*?)&lt;/span&gt;  area
+    price
+
+ discount
+
+
+&lt;dt&gt;费用&lt;/dt&gt;[\s\S\r\n]{0,}?&lt;dd&gt;&lt;SPAN[\s\S\r\n]{0,}?&lt;/SPAN&gt;(.*?)&lt;/dd&gt;  oprice
+
+itemprop="photo"[\s\S\r\n]{0,}?src="(.*?)"   picture
+&lt;div class="block-inner desc-list"&gt;([\s\S\r\n]{0,}?)&lt;/div&gt;  description
+               &lt;span[\s\S\r\n]{0,}?itemprop="count"&gt;(.*?)&lt;/span&gt;                                        commentsCount
+comments:
+collection_na_assembleUrl     matchType
+<entry key="pageUrlTemplate">http://www.dianping.com/shop/3046123/review_all?pageno={}</entry>
+<entry key="contentRegex">&lt;div[\s\S]{0,}comment-entry(.*?)&lt;/div&gt;</entry>
+<entry key="pageSize">20</entry>
+<entry key="begainPagNumber">1</entry>
+<entry key="pagNumberSpace">1</entry>
+
+
+contentRegex:<div[\s\S]{0,}comment-entry(.*?)</div>
+
+			
+			
+			-->
+              <seedsite>
+                    <depth>2</depth>
+                    <domain>www.dianping.com</domain>
+                    <ipadress></ipadress>
+                    <isFetched>0</isFetched>
+					<usefullLinks>
+					<usefullLink>
+					<linkType>linkTypeSource</linkType>
+					<linkUrl>http://www.dianping.com/search/category/2/60/r1470</linkUrl>
+					</usefullLink>
+	                <usefullLink>
+					<linkType>linkTypeTarget</linkType>
+					<linkUrl>http://www.dianping.com/shop/6117813</linkUrl>
+					</usefullLink>
+	                </usefullLinks>	
+                   
+                   
+				   
+                    <paginationRule>
+                        <parameters/>
+                    </paginationRule>
+                    <passedSimilarityValue>0.9</passedSimilarityValue>
+                      <pattern>
+                        <propertyMatches>
+                            <propertyMatch>
+<property>linkFilterRegex</property>
+<match>
+<entry key="regex">href=&quot;(.*?)&quot;</entry>
+</match>
+<matchType>commonMatchType</matchType>
+                            </propertyMatch>
+                            <propertyMatch>
+<property>hotelName</property>
+
+<match>
+<entry key="regex">&lt;h1[\s\S\r\n]{0,}?&gt;(.*?)&lt;/h1&gt;</entry>
+
+</match>
+<matchType>commonMatchType</matchType>
+
+
+                            </propertyMatch>
+                            <propertyMatch>
+<property>descripton</property>
+<match>
+<entry key="regex">&lt;div class="block-inner desc-list"&gt;([\s\S\r\n]{0,}?)&lt;/div&gt;</entry>
+
+</match>
+<matchType>commonMatchType</matchType>
+
+                            </propertyMatch>
+							
+							
+							    <propertyMatch>
+<property>city</property>
+<match>
+<entry key="regex">&lt;div[\s\S\r\n]{0,}?city[\s\S\r\n]{0,}?&lt;h2&gt;(.*?)&lt;/h2&gt;</entry>
+
+</match>
+<matchType>commonMatchType</matchType>
+
+                            </propertyMatch>
+							
+			    <propertyMatch>
+<property>leftTimeAvailabled</property>
+<match>
+
+</match>
+<matchType>commonMatchType</matchType>
+
+                            </propertyMatch>						
+							
+                            <propertyMatch>
+<property>orderedNumber</property>
+<match>
+</match>
+<matchType>commonMatchType</matchType>
+
+                            </propertyMatch>
+                            <propertyMatch>
+<property>area</property>
+<match>
+<entry key="regex">itemprop="street-address"&gt;(.*?)&lt;/span&gt;</entry>
+
+</match>
+<matchType>commonMatchType</matchType>
+
+                            </propertyMatch>
+                            <propertyMatch>
+<property>price</property>
+<match>
+
+</match>
+<matchType>commonMatchType</matchType>
+
+                            </propertyMatch>
+							<propertyMatch>
+<property>oprice</property>
+<match>
+<entry key="regex">&lt;dt&gt;费用&lt;/dt&gt;[\s\S\r\n]{0,}?&lt;dd&gt;&lt;SPAN[\s\S\r\n]{0,}?&lt;/SPAN&gt;(.*?)&lt;/dd&gt;</entry>
+
+</match>
+<matchType>commonMatchType</matchType>
+
+                            </propertyMatch>
+							
+                            <propertyMatch>
+<property>discount</property>
+<match>
+
+</match>
+<matchType>commonMatchType</matchType>
+
+                            </propertyMatch>
+                            <propertyMatch>
+<property>pictureNameMedia</property>
+<match>
+<entry key="regex">itemprop="photo"[\s\S\r\n]{0,}?src="(.*?)"</entry>
+
+</match>
+
+<matchType>mediaMatchType</matchType>
+                            </propertyMatch>
+							                            <propertyMatch>
+<property>commentsCount</property>
+<match>
+<entry key="regex">&lt;span[\s\S\r\n]{0,}?itemprop="count"&gt;(.*?)&lt;/span&gt;</entry>
+
+</match>
+<matchType>commonMatchType</matchType>
+
+                            </propertyMatch>
+							                 <propertyMatch>
+<property>comments</property>
+<match>
+<entry key="pageUrlTemplate">http://www.dianping.com/shop/3046123/review_all?pageno={}</entry>
+<entry key="contentRegex">&lt;div class="comment-entry"&gt;(.*?)&lt;/div&gt;</entry>
+<entry key="pageSize">20</entry>
+<entry key="begainPagNumber">1</entry>
+<entry key="pagNumberSpace">1</entry>
+<entry key="totalRecorderNumberRegex">&lt;span[\s\S\r\n]{0,}?itemprop="count"&gt;(.*?)&lt;/span&gt;</entry>
+
+</match>
+<matchType>collection_na_assembleUrl</matchType>
+                            </propertyMatch>
+
+							
+                        </propertyMatches>
+                        <taskName>hotel</taskName>
+                    </pattern>
+					<dataRetrieverFeatures>
+					 <proxyServerIdentity></proxyServerIdentity>
+                    <requestExecuteJs>true</requestExecuteJs>
+					<requestTimeout>10000</requestTimeout>
+					<isCookiesSupport>false</isCookiesSupport>
+					<connectionTimeout>10000</connectionTimeout>
+					<connectIntervalTime>0</connectIntervalTime>
+					<requestType>get</requestType>
+					</dataRetrieverFeatures>
+                   
+                    <siteDesc></siteDesc>
+                    <siteName>http://www.dianping.com/search/category/2/60/r1470</siteName>
+                    <status>0</status>
+                    <taskName>hotel</taskName>
+                </seedsite>
+				<!--****************************************************************************************-->
+				
+<!--
+Hotel
+<span[\s\S\r\n]{0,}class=right>(.*?)</    name
+<div[\s\S\r\n]{0,}?city[\s\S\r\n]{0,}?<h2>(.*?)</h2> city(匹配多个，去第一个)
+剩余时间[\s\S\r\n]{0,}?<b>(.*?)</b></span>   leftTimeAvailabled
+<strong>(.*?)</strong>人已团购</p>   orderNumber
+<SPAN>地址[\s\S\r\n]{0,}?</SPAN>([\s\S\r\n]{0,}?)</p>  area
+<span>¥</span>(.*?)</p>    price
+
+
+价值<del class=left>¥(.*?)</del>  oprice
+<strong>(.*?)</strong>[\s\S\r\n]{0,}折  discount
+<div class=commodity-show>[\s\S\r\n]{0,}?src="(.*?)"\s[\s\S\r\n]{0,}?</DIV>   picture
+deal-intro[\s\S\r\n]{0,}?<h1>([\s\S\r\n]{0,}?)</h1>  description
+
+
+
+
+
+Hotel
+&lt;span[\s\S\r\n]{0,}class=right&gt;(.*?)&lt;/    name
+&lt;div[\s\S\r\n]{0,}?city[\s\S\r\n]{0,}?&lt;h2&gt;(.*?)&lt;/h2&gt; city(匹配多个，去第一个)
+剩余时间[\s\S\r\n]{0,}?&lt;b&gt;(.*?)&lt;/b&gt;&lt;/span&gt;   leftTimeAvailabled
+&lt;strong&gt;(.*?)&lt;/strong&gt;人已团购&lt;/p&gt;   orderNumber
+&lt;SPAN&gt;地址[\s\S\r\n]{0,}?&lt;/SPAN&gt;([\s\S\r\n]{0,}?)&lt;/p&gt;  area
+&lt;span&gt;¥&lt;/span&gt;(.*?)&lt;/p&gt;    price
+
+&lt;strong&gt;(.*?)&lt;/strong&gt;[\s\S\r\n]{0,}折 discount
+
+
+价值&lt;del class=left&gt;¥(.*?)&lt;/del&gt;  oprice
+
+&lt;div class=commodity-show&gt;[\s\S\r\n]{0,}?src="(.*?)"\s[\s\S\r\n]{0,}?&lt;/DIV&gt;   picture
+deal-intro[\s\S\r\n]{0,}?&lt;h1&gt;([\s\S\r\n]{0,}?)&lt;/h1&gt;  description
+
+                <seedsite>
+				<dataRetrieverFeatures>
+					 <proxyServerIdentity></proxyServerIdentity>
+                    <requestExecuteJs>true</requestExecuteJs>
+					<requestTimeout>10000</requestTimeout>
+					<isCookiesSupport>false</isCookiesSupport>
+					<connectionTimeout>10000</connectionTimeout>
+					<connectIntervalTime>0</connectIntervalTime>
+					<requestType>get</requestType>
+					</dataRetrieverFeatures>
+				<usefullLinks>
+					
+					
+	                <usefullLink>
+					<linkType>linkTypeTarget</linkType>
+					<linkUrl>http://www.lashou.com/hotel/detail/892859.html</linkUrl>
+					</usefullLink>
+	                </usefullLinks>	
+                    <depth>2</depth>
+                    <domain>www.lashou.com</domain>
+                    <ipadress></ipadress>
+                    <isFetched>0</isFetched>
+                  
+				  
+                    <paginationRule>
+                        <paginationTemplate>http://www.lashou.com/hotel/?_city={}&amp;_type=0&amp;_sort=intellect&amp;_page={}&amp;_tags=0#hotel_page</paginationTemplate>
+                        <parameters>
+                            <parameter>
+<parameterIndex>1</parameterIndex>
+<parameterType>String</parameterType>
+<parameterValue>beijing</parameterValue>
+                            </parameter>
+                            <parameter>
+<parameterIndex>2</parameterIndex>
+<parameterType>Integer</parameterType>
+<parameterValue>2</parameterValue>
+                            </parameter>
+                        </parameters>
+                    </paginationRule>
+                    <passedSimilarityValue>0.9</passedSimilarityValue>
+                    <pattern>
+                        <propertyMatches>
+                                              <propertyMatch>
+<property>linkFilterRegex</property>
+<entry key="regex">href=&quot;(.*?)&quot;</entry>
+
+<matchType></matchType>
+                            </propertyMatch>
+                            <propertyMatch>
+<property>hotelName</property>
+
+<match>
+<entry key="regex">&lt;span[\s\S\r\n]{0,}class=right&gt;(.*?)&lt;/</entry>
+
+</match>
+
+
+                            </propertyMatch>
+                            <propertyMatch>
+<property>descripton</property>
+<match>
+<entry key="regex">deal-intro[\s\S\r\n]{0,}?&lt;h1&gt;([\s\S\r\n]{0,}?)&lt;/h1&gt;</entry>
+
+</match>
+                            </propertyMatch>
+							
+							
+							    <propertyMatch>
+<property>city</property>
+<match>
+<entry key="regex">&lt;div[\s\S\r\n]{0,}?city[\s\S\r\n]{0,}?&lt;h2&gt;(.*?)&lt;/h2&gt;</entry>
+
+</match>
+                            </propertyMatch>
+							
+			    <propertyMatch>
+<property>leftTimeAvailabled</property>
+<match>
+<entry key="regex">剩余时间[\s\S\r\n]{0,}?&lt;b&gt;(.*?)&lt;/b&gt;&lt;/span&gt;</entry>
+
+</match>
+                            </propertyMatch>						
+							
+                            <propertyMatch>
+<property>orderedNumber</property>
+<match>
+<entry key="regex">&lt;strong&gt;(.*?)&lt;/strong&gt;人已团购&lt;/p&gt;</entry>
+</match>
+                            </propertyMatch>
+                            <propertyMatch>
+<property>area</property>
+<match>
+<entry key="regex">&lt;SPAN&gt;地址[\s\S\r\n]{0,}?&lt;/SPAN&gt;([\s\S\r\n]{0,}?)&lt;/p&gt;</entry>
+
+</match>
+                            </propertyMatch>
+                            <propertyMatch>
+<property>price</property>
+<match>
+<entry key="regex">&lt;span&gt;¥&lt;/span&gt;(.*?)&lt;/p&gt;</entry>
+
+</match>
+                            </propertyMatch>
+							<propertyMatch>
+<property>oPrice</property>
+<match>
+<entry key="regex">价值&lt;del class=left&gt;¥(.*?)&lt;/del&gt;</entry>
+
+</match>
+                            </propertyMatch>
+							
+                            <propertyMatch>
+<property>discount</property>
+<match>
+<entry key="regex">&lt;strong&gt;(.*?)&lt;/strong&gt;[\s\S\r\n]{0,}折</entry>
+
+</match>
+                            </propertyMatch>
+                            <propertyMatch>
+<property>pictureNameMedia</property>
+<match>
+<entry key="regex">&lt;div class=commodity-show&gt;[\s\S\r\n]{0,}?src="(.*?)"\s[\s\S\r\n]{0,}?&lt;/DIV&gt;</entry>
+
+</match>
+<matchType>mediaMatchType</matchType>
+                            </propertyMatch>
+
+							
+                        </propertyMatches>
+                        <taskName>hotel</taskName>
+                    </pattern>
+                  
+				  
+                    <siteDesc></siteDesc>
+                    <siteName>http://www.lashou.com/hotel/</siteName>
+                    <status>0</status>
+                    <taskName>hotel</taskName>
+                </seedsite>-->
+				
+				<!--
+				http://www.dianping.com/shop/3049318/review_all?pageno=2：
+				Request URL:http://www.dianping.com/shop/3049318/review_all?pageno=2
+Request Method:GET
+Status Code:200 OK
+Request Headersview source
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Charset:GBK,utf-8;q=0.7,*;q=0.3
+Accept-Encoding:gzip,deflate,sdch
+Accept-Language:zh-CN,zh;q=0.8
+Cache-Control:max-age=0
+Connection:keep-alive
+Cookie:_hc.v="\"1bd1817b-3a96-425a-a440-8bcd7f4270fd.1359688954\""; abtest="16,37\|18,41\|25,67\|24,66\|26,69\|14,30\|15,32"; is=786693767105; cye=beijing; userParamsCookie=trace=g6852; ano=VTU4n-4BzgEkAAAAYTYzNDYyYjYtOGFmYS00YjdkLTgyZTMtYjdhYmFhZjQ0ZTk1evEja9AuSC-4HTgtBflo6pSQ59A1; sid=jwsysy55utla0445nufmvv45; lb.dp=1023672586.20480.0000; JSESSIONID=5008A55297579EFEBDBD035AE4B37816; aburl=1; cy=2; __utma=1.125789481.1359688991.1359688991.1359822762.2; __utmb=1.49.10.1359822762; __utmc=1; __utmz=1.1359822762.2.2.utmcsr=t.dianping.com|utmccn=(referral)|utmcmd=referral|utmcct=/beijing/c/60
+Host:www.dianping.com
+Referer:http://www.dianping.com/shop/3049318/review_all
+User-Agent:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.835.186 Safari/535.1
+Query String Parametersview URL encoded
+pageno:2
+Response Headersview source
+Cache-Control:must-revalidate, no-cache, private
+Connection:keep-alive
+Content-Encoding:gzip
+Content-Language:zh-CN
+Content-Type:text/html;charset=UTF-8
+Date:Sat, 02 Feb 2013 16:35:51 GMT
+Keep-Alive:timeout=5
+Pragma:no-cache
+Server:nginx
+Set-Cookie:aburl=1; Domain=.dianping.com; Expires=Sun, 02-Feb-2014 16:35:50 GMT; Path=/
+cy=2; Domain=.dianping.com; Expires=Sun, 02-Feb-2014 16:35:50 GMT; Path=/
+Transfer-Encoding:chunked
+Vary:Accept-Encoding
+				-->
+            </seedsites>
+            <status>0</status>
+            <taskExecuteJobFullName>com.yufei.infoExtractor.task.InfoExtractorCommonTask</taskExecuteJobFullName>
+            <taskName>hotel</taskName>
+			<actionConfigs>
+			 <actionConfig>
+		         <infoActionClassFullClassName>com.yufei.infoExtractor.action.InfoPreAction</infoActionClassFullClassName>
+				 <infoActionType>PRE</infoActionType>
+		         </actionConfig>      		
+			 <actionConfig>
+		         <infoActionClassFullClassName>com.yufei.infoExtractor.action.PreTaskCheckAction</infoActionClassFullClassName>
+				 <infoActionType>PRE</infoActionType>
+		         </actionConfig>      				
+                 <actionConfig>
+		         <infoActionClassFullClassName>com.yufei.infoExtractor.extractor.UrlExtractor</infoActionClassFullClassName>
+				 <infoActionType>EXTRACTOR</infoActionType>
+		         </actionConfig>            
+				 <actionConfig>
+		         <infoActionClassFullClassName>com.yufei.infoExtractor.extractor.ContentExtractor</infoActionClassFullClassName>
+				 <infoActionType>EXTRACTOR</infoActionType>
+		         </actionConfig>      
+                 <actionConfig>
+		         <infoActionClassFullClassName>com.yufei.infoExtractor.action.DataExportToExcelAction</infoActionClassFullClassName>
+				 <infoActionType>EXPORT</infoActionType>
+		         </actionConfig>      				 
+		    <actionConfig>
+		         <infoActionClassFullClassName>com.yufei.infoExtractor.action.InfoPostAction</infoActionClassFullClassName>
+				 <infoActionType>POST</infoActionType>
+		         </actionConfig>     		
+		 
+		 
+		    </actionConfigs>
+        </task>
+    </tasks>
+</taskConfig>

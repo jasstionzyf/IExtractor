@@ -2,6 +2,7 @@ package com.yufei.extractor.component;
 
 import java.util.Queue;
 
+
 import org.eclipse.jetty.util.ArrayQueue;
 
 import com.yufei.dataretriver.DataRetrieverFactory;
