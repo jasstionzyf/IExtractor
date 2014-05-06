@@ -1,13 +1,13 @@
 package com.yufei.extractor.component;
 
+import com.yufei.dataget.dataretriver.DataRetrieverFactory;
+import com.yufei.dataget.dataretriver.DataRetrieverFeatures;
+import com.yufei.dataget.dataretriver.HttpDataRetriever;
 import java.util.Queue;
 
 
 import org.eclipse.jetty.util.ArrayQueue;
 
-import com.yufei.dataretriver.DataRetrieverFactory;
-import com.yufei.dataretriver.DataRetrieverFeatures;
-import com.yufei.dataretriver.HttpDataRetriever;
 public class DataRetriverPool {
 	private static DataRetriverPool dataRetriverPool=null;
     public static int defaultSize=10;

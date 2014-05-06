@@ -14,9 +14,9 @@ import org.apache.commons.logging.LogFactory;
 
 import com.yufei.component.repetition.IsRepetive;
 import com.yufei.component.repetition.IsRepetiveBatSet;
+import com.yufei.dataget.dataretriver.HttpDataRetriever;
 import com.yufei.dataget.entity.PaginationRule;
 import com.yufei.dataget.utils.HtmlUtil;
-import com.yufei.dataretriver.HttpDataRetriever;
 import com.yufei.extractor.component.DataRetriverPool;
 import com.yufei.extractor.entity.Seedsite;
 import com.yufei.extractor.entity.UfLink;
