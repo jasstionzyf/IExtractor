@@ -49,6 +49,7 @@
   <groupId>com.yufei</groupId>
   <artifactId>dataget</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+          <type>jar</type>
        </dependency>       
 
 	
@@ -70,15 +71,7 @@
 
 		
             
-		  <dependency>
-			<groupId>org.eclipse</groupId>
-			<artifactId>swt</artifactId>
-			<version>1.0</version>
-
-			<systemPath>${dependencies.dependency.swt.systemPath}</systemPath>
-			<scope>system</scope>
-
-		</dependency>  
+		
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
@@ -231,9 +224,7 @@
 
 
 		<project.name>InfoExtractor-1.0.0</project.name>
-		<dependencies.dependency.cron4j.systemPath>/home/jasstion/data/libary/cron4j-2.2.5.jar</dependencies.dependency.cron4j.systemPath>
  		
-    <dependencies.dependency.swt.systemPath>/home/jasstion/data/libary/swt.jar</dependencies.dependency.swt.systemPath>
 
 
 
