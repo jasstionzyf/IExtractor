@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.yufei</groupId>
-  <artifactId>IExtractor</artifactId>
+  <groupId>com.edanz</groupId>
+  <artifactId>iextractor</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>InfoExtractor</name>
   <description>信息采集抽取处理平台</description>
@@ -14,85 +14,88 @@
 </dependency>
             
             
-<!-- hadoop -->	
-		
-
-
-		
-		<!-- <dependency>
-			<groupId>com.yufei</groupId>
-	<artifactId>luceneExt</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	</dependency> -->
-	<dependency>
-			<groupId>com.yufei</groupId>
-	<artifactId>pfw</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	</dependency>
-		<dependency>
-	<groupId>jtidy</groupId>
-	<artifactId>jtidy</artifactId>
-	<version>4aug2000r7-dev</version>
-</dependency>
-    <dependency>
-	<groupId>org.jsoup</groupId>
-	<artifactId>jsoup</artifactId>
-	<version>1.7.2</version>
-</dependency>
-                    
-	 <dependency>
+<dependency>
   <groupId>com.yufei</groupId>
   <artifactId>utils</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-       </dependency>   
+       </dependency>     
        <dependency>
   <groupId>com.yufei</groupId>
-  <artifactId>dataget</artifactId>
+  <artifactId>pfw</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-          <type>jar</type>
-       </dependency>       
+       </dependency>     
+        <dependency>
+  <groupId>com.yufei</groupId>
+ <artifactId>dataget</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+       </dependency>    
+<!--        <dependency>
+  <groupId>com.edanz</groupId>
+  <artifactId>datacenter</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+       </dependency>      -->
+	
+		
+                
+                    
+	 
+      
 
 	
             
 			
-<dependency>
-			<groupId>eclipse</groupId>
-			<artifactId>eclipse-jface</artifactId>
-			<version>2.1.0</version>
-		</dependency>
 
 
-		<dependency>
+<!--		<dependency>
 			<groupId>org.apache.lucene</groupId>
 			<artifactId>lucene-core</artifactId>
 			<version>3.6.0</version>
-		</dependency>
+		</dependency>-->
 		
 
 		
             
 		
-		<dependency>
-			<groupId>org.apache.httpcomponents</groupId>
-			<artifactId>httpclient</artifactId>
-			<version>4.2.2</version>
-		</dependency>
-	<dependency>
-	<groupId>org.htmlparser</groupId>
-	<artifactId>htmlparser</artifactId>
-	<version>2.1</version>
-</dependency>
+		
             
 
 	</dependencies>
 
-	<build>
-	  <pluginManagement>
+            <profiles>
+                
+                <profile>
+                    <id>product</id> 
+                    
+                    <build>
+	<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+                                <filtering>true</filtering>
+                                 <excludes>
+           <exclude>*.*</exclude> 
+            <exclude>**/**/*.*</exclude>
+    
+                        </excludes>
+
+			</resource>
+	
+			
+
+		</resources>
+	 <pluginManagement>
       <plugins>
+      <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>2.5</version>
+				<configuration>
+					<encoding>UTF-8</encoding>
+					
+				</configuration>
+			</plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.3</version>
           <configuration>
           
           <skipTests>true</skipTests>
@@ -100,7 +103,7 @@
           </configuration>
         </plugin>
         <!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
-        <plugin>
+         <plugin>
         	<groupId>org.eclipse.m2e</groupId>
         	<artifactId>lifecycle-mapping</artifactId>
         	<version>1.0.0</version>
@@ -128,55 +131,33 @@
         		</lifecycleMappingMetadata>
         	</configuration>
         </plugin>
+        
+        
+        
       </plugins>
     </pluginManagement>
-		<scriptSourceDirectory>src/main/resources</scriptSourceDirectory>
 
 
 
 
-		<!-- maven resource filter -->
-		<resources>
-			<resource>
-				<directory>src/main/resources</directory>
- <!--  <excludes>
-            <exclude>**/**/*.*</exclude>
-            <exclude>**/*.*</exclude>
-         
-                 </excludes>  -->
-				<filtering>true</filtering>
-
-			</resource>
-		<!-- 	<resource>
-				<directory>src/test/resources</directory>
-			</resource> -->
-			
-
-		</resources>
+		
 		<plugins>
-		<plugin>
+		
+		
+			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				
 				<configuration>
 					<source>1.7</source>
 					<target>1.7</target>
 					<encoding>UTF-8</encoding>
-					<skip>true</skip>
+                                        <skip>true</skip>
 				</configuration>
 			</plugin>
 			
-
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-resources-plugin</artifactId>
-				<version>2.4</version>
-				<configuration>
-					<encoding>UTF-8</encoding>
-				</configuration>
-			</plugin>
 		
 
-<plugin>
+  <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
         <version>2.4</version>
@@ -184,7 +165,6 @@
         	<archive>
         	 
   <manifest>  
-
    <addClasspath>true</addClasspath>  
    <classpathPrefix>./lib/</classpathPrefix>  
   </manifest>  
@@ -194,31 +174,15 @@
         	</configuration>
 
       
-      </plugin>
+      </plugin> 
+  
+			
 
- <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-dependency-plugin</artifactId>
-        <version>2.7</version>
-        <executions>
-          <execution>
-            <id>copy-dependencies</id>
-            <phase>package</phase>
-            <goals>
-              <goal>copy-dependencies</goal>
-            </goals>
-            <configuration>
-              <outputDirectory>${project.build.directory}/lib</outputDirectory>
-              <overWriteReleases>false</overWriteReleases>
-              <overWriteSnapshots>false</overWriteSnapshots>
-              <overWriteIfNewer>true</overWriteIfNewer>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
 		</plugins>
-
-	</build>
+            </build>
+                </profile>
+                
+            </profiles>
 	<properties>
 		
 
