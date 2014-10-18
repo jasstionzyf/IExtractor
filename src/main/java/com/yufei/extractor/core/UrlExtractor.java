@@ -1,11 +1,10 @@
 package com.yufei.extractor.core;
 
+import com.google.common.collect.Lists;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import javax.management.RuntimeErrorException;
 
@@ -21,9 +20,12 @@ import com.yufei.extractor.component.DataRetriverPool;
 import com.yufei.extractor.entity.Seedsite;
 import com.yufei.extractor.entity.UfLink;
 import com.yufei.pfw.service.PfwService;
+import com.yufei.pfw.service.PfwServiceFactory;
 import com.yufei.utils.CommonUtil;
 import com.yufei.utils.ExceptionUtil;
 import com.yufei.utils.PatternUtils;
+import com.yufei.utils.StringUtils;
+import java.util.Iterator;
 
 public class UrlExtractor implements Extractor {
 	public static final Log mLog = LogFactory.getLog(UrlExtractor.class);
@@ -35,7 +37,8 @@ public class UrlExtractor implements Extractor {
 	private String  url0=null;
 	private  Seedsite seedSite;
 	private DataRetriverPool dataRetriverPool=null;
-	private IsRepetive isRepetive=IsRepetiveBatSet.getInstance();
+	
+        private ExtractedInfoRepository extractedInfoRepository=null;
     private void prepare() {
     	depth=seedSite.getUrlExtractorCfg().getDepth();
     	url0=seedSite.getSiteName();
@@ -51,9 +54,11 @@ public class UrlExtractor implements Extractor {
 		
 	}
 
-	public UrlExtractor(Seedsite seedSite) {
+	public UrlExtractor(Seedsite seedSite,ExtractedInfoRepository extractedInfoRepository) {
 		super();
+                
 		this.seedSite = seedSite;
+                this.extractedInfoRepository=extractedInfoRepository;
 	}
     private List<String> getLinks(String upLink){
     	List<String> links=new ArrayList<String>();
@@ -67,7 +72,7 @@ public class UrlExtractor implements Extractor {
 	    List<String> filterregexes = this.seedSite.getUrlExtractorCfg().getUrlRegexes();
 	    if(CommonUtil.isEmptyOrNull(filterregexes)){
 	    	String message = "UrlRegexes配置为空,请重新配置!";
-			mLog.error(message);
+			//mLog.error(message);
 	    	throw new RuntimeErrorException(new Error(message));
 	    }
 		List<String> filterUrls = PatternUtils.getListStrByRegex(htmlContent, CommonUtil.LinkStringWithSpecialSymbol(filterregexes, "!"));
@@ -78,14 +83,14 @@ public class UrlExtractor implements Extractor {
 			}
             filterUrl = CommonUtil.formatUrl(filterUrl);
 			filterUrl = CommonUtil.normalizeUrl(filterUrl, upLink);
-			mLog.info("经过规范之后的url："+filterUrl+"");
-			if(isRepetive.isRepetive(filterUrl)){
-				continue;
-			}
+			//mLog.info("经过规范之后的url："+filterUrl+"");
+//			if(isRepetive.isRepetive(filterUrl)){
+//				continue;
+//			}
 			List<String> ulLinkRegexes = seedSite.getUrlExtractorCfg().getUlLinkRegexes();
 			if(CommonUtil.isEmptyOrNull(ulLinkRegexes)){
 				String message = "ulLinkRegexes配置为空,请重新配置!";
-				mLog.error(message);
+				//mLog.error(message);
 		    	throw new RuntimeErrorException(new Error(message));
 			}
 			if(CommonUtil.isEmptyOrNull(filterUrl)){
@@ -95,22 +100,39 @@ public class UrlExtractor implements Extractor {
 				//提取商品标识查看商品是否已经收录
 			    String mallItemId = seedSite.getUrlExtractorCfg().getIdRegex();
 			    String mallId=seedSite.getMallId();
-                Map map=new HashMap();
-                map.put("mallId:=", mallId);
-                map.put("mallItemId:=", mallItemId);
-                List<UfLink> ufs=PfwService.pfwService.query(map, UfLink.class);
-                if(!CommonUtil.isEmptyOrNull(ufs)){
-                	continue;
-                }
+                            if(!StringUtils.isEmpty(mallItemId)&&!StringUtils.isEmpty(mallId)){
+                                if(extractedInfoRepository.isRepeatInfo(mallId, mallItemId)){
+                                    continue;
+                                }
+                            }
+                           
+//                Map map=new HashMap();
+//                map.put("mallId:=", mallId);
+//                map.put("mallItemId:=", mallItemId);
+//                List<UfLink> ufs=PfwService.pfwService.query(map, UfLink.class);
+//                if(!CommonUtil.isEmptyOrNull(ufs)){
+//                	continue;
+//                }
 				UfLink ufLink=new UfLink();
 				ufLink.setFindTime(new Date());
-			    //ufLink.sethc(getHtmlContent(filterUrl, dataRetriverPool.get()));
+             String htmlContent1 = getHtmlContent(filterUrl, dataRetriverPool.get());
+             if(!StringUtils.isEmpty(htmlContent1)){
+               htmlContent1=HtmlUtil.cleanHtml(htmlContent1);
+             htmlContent1=StringUtils.formatWhiteSpace(htmlContent1);   
+             }
+            
+			    ufLink.sethc(htmlContent1);
 			    ufLink.setLink(filterUrl);
 			    ufLink.setSeedsiteId(seedSite.getId());
 			    ufLink.setUpLink(upLink);
 				ufLink.setMallItemId(PatternUtils.getStrByRegex(filterUrl, mallItemId));
 				ufLink.setMallId(Long.parseLong(mallId));
-				PfwService.pfwService.save(ufLink);
+				//PfwService.pfwService.save(ufLink);
+                                if(StringUtils.isEmpty(ufLink.getMallItemId())){
+                                    ufLink.setMallItemId(filterUrl);
+                                    
+                                }
+                                extractedInfoRepository.saveInfo(ufLink);
 				continue;
 			}
 			links.add(filterUrl);
@@ -170,13 +192,31 @@ public class UrlExtractor implements Extractor {
           
 	}
 	public static void main(String[] args) {
+
 		// TODO Auto-generated method stub
-      Seedsite seedsite=(Seedsite) CommonUtil.getObjectFromXml(Thread.currentThread().getContextClassLoader().getResourceAsStream("amazone.xml"), Seedsite.class);
-      UrlExtractor urlExtractor=new UrlExtractor(seedsite);
-      urlExtractor.extract();
-      
+                  String url="http://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&ch=&tn=baidu&bar=&wd=top+500+university&rn=";
+
+     Seedsite seedsite=(Seedsite) CommonUtil.getObjectFromXml(Thread.currentThread().getContextClassLoader().getResourceAsStream("agilent_1.xml"), Seedsite.class);
+     seedsite.setSiteName(url);
+ 
+     seedsite.getUrlExtractorCfg().setDepth(2);
+     seedsite.getUrlExtractorCfg().setUlLinkRegexes(Lists.newArrayList(".*"));
+     seedsite.getDataRetrieverFeatures().setRequestExecuteJs(false);
+     ExtractedInfoRepository extractedInfoRepository=new MemExtractedInfoRepository();
+     
+     UrlExtractor urlExtractor=new UrlExtractor(seedsite,extractedInfoRepository);
+     urlExtractor.extract();
+     Iterator<UfLink> ufLinks=extractedInfoRepository.iteratInfo();
+     while(ufLinks.hasNext()){
+         UfLink ufLink=ufLinks.next();
+         if(StringUtils.isEmpty(ufLink.getOhc())){
+             continue;
+         }
+         String ohc=ufLink.getOhc();
+     }
+                   
 	
-	}
+        }
 
     
 }

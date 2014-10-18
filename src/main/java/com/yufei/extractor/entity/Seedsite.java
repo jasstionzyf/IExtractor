@@ -9,7 +9,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import com.yufei.pfw.entity.Entity;
 
 @XmlRootElement
-public class Seedsite extends Entity {
+public class Seedsite extends Entity<Long> {
 final public static Integer UN_CRAWLERED=0; 
 final public static Integer IS_CRAWLERING=1; 
 final public static Integer IS_CRAWLERED=2; 

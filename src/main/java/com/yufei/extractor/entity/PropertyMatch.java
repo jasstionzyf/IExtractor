@@ -10,7 +10,6 @@ import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 import com.yufei.pfw.entity.Entity;
-import com.yufei.pfw.entity.MapAdapter;
 
 
 @XmlRootElement()

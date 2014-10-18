@@ -15,6 +15,7 @@ import com.yufei.extractor.component.pExtractor.PExtractorFactory;
 import com.yufei.extractor.entity.PropertyMatch;
 import com.yufei.extractor.entity.Seedsite;
 import com.yufei.extractor.entity.UfLink;
+import com.yufei.pfw.entity.Entity;
 import com.yufei.pfw.service.PfwService;
 import com.yufei.utils.CommonUtil;
 import com.yufei.utils.ExceptionUtil;
@@ -29,7 +30,7 @@ public class InfoExtractor implements Extractor {
 
 	private Seedsite seedSite;
 	private Class savedClass=null;
-    private Object savedObj;
+    private Entity savedObj;
 
 	public InfoExtractor(Seedsite seedSite) {
 		super();
@@ -86,7 +87,7 @@ private void prepare(){
  		String value = null;
  		PropertyMatch propertyMatch = null;
  		String fieldRegex = null;
- 	    savedObj=savedClass.newInstance();
+ 	    savedObj=(Entity) savedClass.newInstance();
 
  		for (Field field : fileds) {
  			savedClass=null;
@@ -109,7 +110,7 @@ private void prepare(){
 
 
  		}//fields set end
-		PfwService.pfwService.save(savedClass);
+		PfwService.pfwService.save(savedObj);
 
     	 }catch(Exception e){
     		 mLog.info("when parser the "+ufLink.getLink()+" error!");

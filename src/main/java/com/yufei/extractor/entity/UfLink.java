@@ -10,7 +10,13 @@ import org.springframework.data.mongodb.core.index.Indexed;
 
 import com.yufei.annotation.QueryEnable;
 import com.yufei.pfw.entity.Entity;
-public class UfLink extends Entity {
+import com.yufei.utils.StringUtils;
+import java.util.Objects;
+public class UfLink extends Entity<Long> {
+
+    public UfLink() {
+        super();
+    }
 
 	private static Log mLog = LogFactory.getLog(UfLink.class);
 	private Long seedsiteId;
@@ -32,6 +38,30 @@ public class UfLink extends Entity {
 
 	@QueryEnable(enable = true)
 	private Date findTime=null;
+
+    @Override
+    public int hashCode() {
+        String str=mallItemId+mallId;
+        return str.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final UfLink other = (UfLink) obj;
+        if (!Objects.equals(this.mallItemId, other.mallItemId)) {
+            return false;
+        }
+        if (!Objects.equals(this.mallId, other.mallId)) {
+            return false;
+        }
+        return true;
+    }
 	private Date updateTime=null;
 	private String contentHashCode=null;
 	/**
@@ -131,7 +161,12 @@ public class UfLink extends Entity {
 		this.ohc = originalHtmlContent;
 	}
 	
-    
+    public UfLink(Long mallId,String MallItemId){
+        super();
+        this.mallId=mallId;
+        this.mallItemId=mallItemId;
+        
+    }
 
 
 	
