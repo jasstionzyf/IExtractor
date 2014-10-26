@@ -181,7 +181,7 @@ public class UrlExtractor implements Extractor {
 		     if(totalExtractUrls==0){
 		    	 break;
 		     }
-			i++;
+			
 			currentDepthUrls.clear();
 			for(String url:nextDepthUrls){
 				currentDepthUrls.add(url);
@@ -200,8 +200,8 @@ public class UrlExtractor implements Extractor {
      seedsite.setSiteName(url);
  
      seedsite.getUrlExtractorCfg().setDepth(2);
-     seedsite.getUrlExtractorCfg().setUlLinkRegexes(Lists.newArrayList(".*"));
-     seedsite.getDataRetrieverFeatures().setRequestExecuteJs(false);
+     seedsite.getUrlExtractorCfg().setUlLinkRegexes(Lists.newArrayList("(.*?)"));
+     seedsite.getDataRetrieverFeatures().setRequestExecuteJs(true);
      ExtractedInfoRepository extractedInfoRepository=new MemExtractedInfoRepository();
      
      UrlExtractor urlExtractor=new UrlExtractor(seedsite,extractedInfoRepository);

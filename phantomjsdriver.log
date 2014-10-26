@@ -1,0 +1,685 @@
+[INFO  - 2014-10-17T05:37:15.445Z] GhostDriver - Main - running on port 26926
+[INFO  - 2014-10-17T05:37:16.157Z] Session [a7472690-55bf-11e4-aa92-9b19e496431b] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T05:37:16.157Z] Session [a7472690-55bf-11e4-aa92-9b19e496431b] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T05:37:16.157Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a7472690-55bf-11e4-aa92-9b19e496431b
+[INFO  - 2014-10-17T05:41:16.877Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T05:43:10.656Z] GhostDriver - Main - running on port 13373
+[INFO  - 2014-10-17T05:43:11.283Z] Session [7af313f0-55c0-11e4-ac81-675f6acc6129] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T05:43:11.283Z] Session [7af313f0-55c0-11e4-ac81-675f6acc6129] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T05:43:11.283Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7af313f0-55c0-11e4-ac81-675f6acc6129
+[INFO  - 2014-10-17T05:44:10.081Z] GhostDriver - Main - running on port 24224
+[INFO  - 2014-10-17T05:44:10.686Z] Session [9e5a7e50-55c0-11e4-b89a-dbed4d425e7c] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T05:44:10.686Z] Session [9e5a7e50-55c0-11e4-b89a-dbed4d425e7c] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T05:44:10.687Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9e5a7e50-55c0-11e4-b89a-dbed4d425e7c
+[INFO  - 2014-10-17T05:48:10.713Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T05:48:10.997Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T05:49:34.331Z] GhostDriver - Main - running on port 23381
+[INFO  - 2014-10-17T05:49:35.607Z] Session [60064430-55c1-11e4-af4a-993fb0d09349] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T05:49:35.607Z] Session [60064430-55c1-11e4-af4a-993fb0d09349] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T05:49:35.608Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 60064430-55c1-11e4-af4a-993fb0d09349
+[INFO  - 2014-10-17T05:50:34.782Z] GhostDriver - Main - running on port 25787
+[INFO  - 2014-10-17T05:50:36.055Z] Session [840de630-55c1-11e4-b891-b15006fa6b0d] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T05:50:36.055Z] Session [840de630-55c1-11e4-b891-b15006fa6b0d] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T05:50:36.055Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 840de630-55c1-11e4-b891-b15006fa6b0d
+[INFO  - 2014-10-17T05:53:10.787Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T05:55:34.838Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T05:58:10.881Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T06:00:34.926Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T06:03:10.923Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T06:05:35.012Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T06:08:11.017Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T06:10:35.088Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T06:13:11.105Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T06:15:35.170Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T06:18:11.202Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T06:20:35.269Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T06:23:11.301Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T06:25:35.368Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T06:28:11.340Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T06:30:35.468Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T06:33:11.374Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T06:35:35.529Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T06:38:11.391Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T06:40:35.627Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T06:43:11.459Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T06:45:35.691Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T06:48:11.548Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T06:50:35.738Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T06:53:11.629Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T06:55:35.837Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T06:58:11.722Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T07:00:35.915Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T07:03:11.805Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T07:05:36.014Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T07:08:11.882Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T07:10:36.084Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T07:13:11.982Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T07:15:36.182Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T07:18:11.994Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T07:20:36.281Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T07:23:12.026Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T07:25:36.362Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T07:28:12.047Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T08:02:52.825Z] GhostDriver - Main - running on port 22940
+[INFO  - 2014-10-17T08:02:53.410Z] Session [ff164ef0-55d3-11e4-9d69-b534378108cc] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:02:53.411Z] Session [ff164ef0-55d3-11e4-9d69-b534378108cc] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:02:53.411Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ff164ef0-55d3-11e4-9d69-b534378108cc
+[INFO  - 2014-10-17T08:02:54.144Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:02:54.817Z] GhostDriver - Main - running on port 14052
+[INFO  - 2014-10-17T08:02:55.216Z] Session [002993b0-55d4-11e4-bca5-63a0d7930e85] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:02:55.216Z] Session [002993b0-55d4-11e4-bca5-63a0d7930e85] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:02:55.216Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 002993b0-55d4-11e4-bca5-63a0d7930e85
+[INFO  - 2014-10-17T08:02:55.487Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:02:56.194Z] GhostDriver - Main - running on port 24172
+[INFO  - 2014-10-17T08:02:56.601Z] Session [00fcc230-55d4-11e4-bbba-03715f550bdd] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:02:56.601Z] Session [00fcc230-55d4-11e4-bbba-03715f550bdd] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:02:56.601Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 00fcc230-55d4-11e4-bbba-03715f550bdd
+[INFO  - 2014-10-17T08:02:57.639Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:02:58.277Z] GhostDriver - Main - running on port 20693
+[INFO  - 2014-10-17T08:02:58.675Z] Session [023912c0-55d4-11e4-b109-c186b0c5ca8b] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:02:58.675Z] Session [023912c0-55d4-11e4-b109-c186b0c5ca8b] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:02:58.675Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 023912c0-55d4-11e4-b109-c186b0c5ca8b
+[INFO  - 2014-10-17T08:03:29.416Z] GhostDriver - Main - running on port 9117
+[INFO  - 2014-10-17T08:03:30.054Z] Session [14ed4800-55d4-11e4-b201-51cc33fab2f3] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:03:30.054Z] Session [14ed4800-55d4-11e4-b201-51cc33fab2f3] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:03:30.054Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 14ed4800-55d4-11e4-b201-51cc33fab2f3
+[INFO  - 2014-10-17T08:03:30.760Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:03:34.467Z] GhostDriver - Main - running on port 28219
+[INFO  - 2014-10-17T08:03:34.875Z] Session [17ccc140-55d4-11e4-abeb-37e2202e76ce] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:03:34.875Z] Session [17ccc140-55d4-11e4-abeb-37e2202e76ce] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:03:34.876Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 17ccc140-55d4-11e4-abeb-37e2202e76ce
+[INFO  - 2014-10-17T08:03:35.153Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:03:35.925Z] GhostDriver - Main - running on port 7801
+[INFO  - 2014-10-17T08:03:36.335Z] Session [18abd6a0-55d4-11e4-b1b1-6de9b2deb0fc] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:03:36.335Z] Session [18abd6a0-55d4-11e4-b1b1-6de9b2deb0fc] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:03:36.335Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 18abd6a0-55d4-11e4-b1b1-6de9b2deb0fc
+[INFO  - 2014-10-17T08:03:37.061Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:03:37.698Z] GhostDriver - Main - running on port 10946
+[INFO  - 2014-10-17T08:03:38.097Z] Session [19b8b2c0-55d4-11e4-80f2-4f505950b973] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:03:38.097Z] Session [19b8b2c0-55d4-11e4-80f2-4f505950b973] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:03:38.097Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 19b8b2c0-55d4-11e4-80f2-4f505950b973
+[INFO  - 2014-10-17T08:03:39.477Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:03:40.157Z] GhostDriver - Main - running on port 7315
+[INFO  - 2014-10-17T08:03:40.559Z] Session [1b303790-55d4-11e4-96bb-e15b2a268bf8] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:03:40.559Z] Session [1b303790-55d4-11e4-96bb-e15b2a268bf8] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:03:40.559Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1b303790-55d4-11e4-96bb-e15b2a268bf8
+[INFO  - 2014-10-17T08:03:46.739Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:03:47.403Z] GhostDriver - Main - running on port 19342
+[INFO  - 2014-10-17T08:03:47.802Z] Session [1f819050-55d4-11e4-a8e1-3bc5046cc98e] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:03:47.802Z] Session [1f819050-55d4-11e4-a8e1-3bc5046cc98e] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:03:47.803Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1f819050-55d4-11e4-a8e1-3bc5046cc98e
+[INFO  - 2014-10-17T08:03:48.432Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:03:49.065Z] GhostDriver - Main - running on port 11991
+[INFO  - 2014-10-17T08:03:49.470Z] Session [207fed80-55d4-11e4-9f8f-69be15c39561] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:03:49.470Z] Session [207fed80-55d4-11e4-9f8f-69be15c39561] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:03:49.470Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 207fed80-55d4-11e4-9f8f-69be15c39561
+[INFO  - 2014-10-17T08:03:53.157Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:03:53.839Z] GhostDriver - Main - running on port 23313
+[INFO  - 2014-10-17T08:03:54.239Z] Session [2357c5a0-55d4-11e4-a679-c33534145e2d] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:03:54.239Z] Session [2357c5a0-55d4-11e4-a679-c33534145e2d] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:03:54.240Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 2357c5a0-55d4-11e4-a679-c33534145e2d
+[INFO  - 2014-10-17T08:03:59.508Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:04:00.183Z] GhostDriver - Main - running on port 30532
+[INFO  - 2014-10-17T08:04:00.557Z] Session [271b8460-55d4-11e4-8439-6f97b8788c4b] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:04:00.557Z] Session [271b8460-55d4-11e4-8439-6f97b8788c4b] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:04:00.560Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 271b8460-55d4-11e4-8439-6f97b8788c4b
+[INFO  - 2014-10-17T08:04:00.710Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:04:01.348Z] GhostDriver - Main - running on port 30285
+[INFO  - 2014-10-17T08:04:01.744Z] Session [27d0a390-55d4-11e4-8530-692d39b79cde] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:04:01.744Z] Session [27d0a390-55d4-11e4-8530-692d39b79cde] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:04:01.744Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 27d0a390-55d4-11e4-8530-692d39b79cde
+[INFO  - 2014-10-17T08:04:02.075Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:04:02.719Z] GhostDriver - Main - running on port 26742
+[INFO  - 2014-10-17T08:04:03.109Z] Session [28a13a00-55d4-11e4-b646-2d8dc6649025] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:04:03.109Z] Session [28a13a00-55d4-11e4-b646-2d8dc6649025] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:04:03.110Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 28a13a00-55d4-11e4-b646-2d8dc6649025
+[INFO  - 2014-10-17T08:04:12.275Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:04:12.915Z] GhostDriver - Main - running on port 31473
+[INFO  - 2014-10-17T08:04:13.317Z] Session [2eb6ff10-55d4-11e4-8b3d-5dbd092144a2] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:04:13.318Z] Session [2eb6ff10-55d4-11e4-8b3d-5dbd092144a2] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:04:13.318Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 2eb6ff10-55d4-11e4-8b3d-5dbd092144a2
+[INFO  - 2014-10-17T08:04:15.576Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:04:16.240Z] GhostDriver - Main - running on port 16621
+[INFO  - 2014-10-17T08:04:16.632Z] Session [30b0d340-55d4-11e4-83a9-4968d7cb05cb] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:04:16.632Z] Session [30b0d340-55d4-11e4-83a9-4968d7cb05cb] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:04:16.632Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 30b0d340-55d4-11e4-83a9-4968d7cb05cb
+[INFO  - 2014-10-17T08:04:18.521Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:04:19.166Z] GhostDriver - Main - running on port 27166
+[INFO  - 2014-10-17T08:04:19.568Z] Session [327084a0-55d4-11e4-b5be-df07ba04fc73] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:04:19.568Z] Session [327084a0-55d4-11e4-b5be-df07ba04fc73] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:04:19.569Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 327084a0-55d4-11e4-b5be-df07ba04fc73
+[INFO  - 2014-10-17T08:04:20.775Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:04:21.416Z] GhostDriver - Main - running on port 15794
+[INFO  - 2014-10-17T08:04:21.813Z] Session [33c73b00-55d4-11e4-974c-872fa90b268e] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:04:21.813Z] Session [33c73b00-55d4-11e4-974c-872fa90b268e] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:04:21.813Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 33c73b00-55d4-11e4-974c-872fa90b268e
+[INFO  - 2014-10-17T08:04:23.027Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:04:23.701Z] GhostDriver - Main - running on port 30041
+[INFO  - 2014-10-17T08:04:24.091Z] Session [3522d360-55d4-11e4-814e-b75dbf1bc2c9] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:04:24.091Z] Session [3522d360-55d4-11e4-814e-b75dbf1bc2c9] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:04:24.091Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3522d360-55d4-11e4-814e-b75dbf1bc2c9
+[INFO  - 2014-10-17T08:04:28.790Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:04:29.437Z] GhostDriver - Main - running on port 18940
+[INFO  - 2014-10-17T08:04:29.835Z] Session [388f4a60-55d4-11e4-ac22-95952aaefdde] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:04:29.836Z] Session [388f4a60-55d4-11e4-ac22-95952aaefdde] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:04:29.836Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 388f4a60-55d4-11e4-ac22-95952aaefdde
+[INFO  - 2014-10-17T08:04:39.757Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:04:40.401Z] GhostDriver - Main - running on port 6362
+[INFO  - 2014-10-17T08:04:40.798Z] Session [3f1843a0-55d4-11e4-b2d5-6d46e32762dd] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:04:40.798Z] Session [3f1843a0-55d4-11e4-b2d5-6d46e32762dd] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:04:40.799Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3f1843a0-55d4-11e4-b2d5-6d46e32762dd
+[INFO  - 2014-10-17T08:04:44.374Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:04:45.022Z] GhostDriver - Main - running on port 30341
+[INFO  - 2014-10-17T08:04:45.416Z] Session [41d8c330-55d4-11e4-baad-e1aba5f75597] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:04:45.416Z] Session [41d8c330-55d4-11e4-baad-e1aba5f75597] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:04:45.416Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 41d8c330-55d4-11e4-baad-e1aba5f75597
+[INFO  - 2014-10-17T08:04:45.690Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:04:46.329Z] GhostDriver - Main - running on port 29233
+[INFO  - 2014-10-17T08:04:46.728Z] Session [42a11c40-55d4-11e4-9ede-b3325576e3b1] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:04:46.728Z] Session [42a11c40-55d4-11e4-9ede-b3325576e3b1] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:04:46.729Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 42a11c40-55d4-11e4-9ede-b3325576e3b1
+[INFO  - 2014-10-17T08:04:47.642Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:04:48.301Z] GhostDriver - Main - running on port 3273
+[INFO  - 2014-10-17T08:04:48.699Z] Session [43cdb560-55d4-11e4-846e-35dfa2f2fa9e] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:04:48.699Z] Session [43cdb560-55d4-11e4-846e-35dfa2f2fa9e] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:04:48.699Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 43cdb560-55d4-11e4-846e-35dfa2f2fa9e
+[INFO  - 2014-10-17T08:04:49.558Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:04:50.217Z] GhostDriver - Main - running on port 7212
+[INFO  - 2014-10-17T08:04:50.616Z] Session [44f23830-55d4-11e4-8c10-774ad375b9f9] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:04:50.617Z] Session [44f23830-55d4-11e4-8c10-774ad375b9f9] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:04:50.617Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 44f23830-55d4-11e4-8c10-774ad375b9f9
+[INFO  - 2014-10-17T08:04:51.610Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:04:52.262Z] GhostDriver - Main - running on port 24249
+[INFO  - 2014-10-17T08:04:52.665Z] Session [462b0650-55d4-11e4-835b-97ce799c0d19] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:04:52.666Z] Session [462b0650-55d4-11e4-835b-97ce799c0d19] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:04:52.666Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 462b0650-55d4-11e4-835b-97ce799c0d19
+[INFO  - 2014-10-17T08:04:56.121Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:04:56.783Z] GhostDriver - Main - running on port 6431
+[INFO  - 2014-10-17T08:04:57.182Z] Session [48dc1c90-55d4-11e4-a84f-6b546b6a28cc] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:04:57.182Z] Session [48dc1c90-55d4-11e4-a84f-6b546b6a28cc] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:04:57.182Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 48dc1c90-55d4-11e4-a84f-6b546b6a28cc
+[INFO  - 2014-10-17T08:04:58.135Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:04:58.783Z] GhostDriver - Main - running on port 23366
+[INFO  - 2014-10-17T08:04:59.190Z] Session [4a0e0ce0-55d4-11e4-b5df-a33d6220c8f9] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:04:59.190Z] Session [4a0e0ce0-55d4-11e4-b5df-a33d6220c8f9] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:04:59.190Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4a0e0ce0-55d4-11e4-b5df-a33d6220c8f9
+[INFO  - 2014-10-17T08:04:59.946Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:05:00.591Z] GhostDriver - Main - running on port 14939
+[INFO  - 2014-10-17T08:05:00.997Z] Session [4b223c00-55d4-11e4-a8ba-ed8fb1a7051a] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:05:00.997Z] Session [4b223c00-55d4-11e4-a8ba-ed8fb1a7051a] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:05:00.998Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4b223c00-55d4-11e4-a8ba-ed8fb1a7051a
+[INFO  - 2014-10-17T08:05:01.790Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:05:02.451Z] GhostDriver - Main - running on port 18955
+[INFO  - 2014-10-17T08:05:02.851Z] Session [4c3cd3c0-55d4-11e4-8558-8f1d26ce9c7e] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:05:02.851Z] Session [4c3cd3c0-55d4-11e4-8558-8f1d26ce9c7e] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:05:02.852Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4c3cd3c0-55d4-11e4-8558-8f1d26ce9c7e
+[INFO  - 2014-10-17T08:05:03.717Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:05:04.379Z] GhostDriver - Main - running on port 23705
+[INFO  - 2014-10-17T08:05:04.775Z] Session [4d62b620-55d4-11e4-b951-a70dce84a6f8] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:05:04.775Z] Session [4d62b620-55d4-11e4-b951-a70dce84a6f8] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:05:04.775Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4d62b620-55d4-11e4-b951-a70dce84a6f8
+[INFO  - 2014-10-17T08:05:06.563Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:05:07.223Z] GhostDriver - Main - running on port 25468
+[INFO  - 2014-10-17T08:05:07.625Z] Session [4f156f30-55d4-11e4-b7c8-4565f6254964] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:05:07.625Z] Session [4f156f30-55d4-11e4-b7c8-4565f6254964] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:05:07.625Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4f156f30-55d4-11e4-b7c8-4565f6254964
+[INFO  - 2014-10-17T08:05:08.528Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:05:09.187Z] GhostDriver - Main - running on port 27992
+[INFO  - 2014-10-17T08:05:09.585Z] Session [5040a8c0-55d4-11e4-92a6-d3d250e7154b] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:05:09.585Z] Session [5040a8c0-55d4-11e4-92a6-d3d250e7154b] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:05:09.585Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5040a8c0-55d4-11e4-92a6-d3d250e7154b
+[INFO  - 2014-10-17T08:05:10.470Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:05:11.134Z] GhostDriver - Main - running on port 32352
+[INFO  - 2014-10-17T08:05:11.532Z] Session [5169bf70-55d4-11e4-a028-d71b8f355e78] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:05:11.532Z] Session [5169bf70-55d4-11e4-a028-d71b8f355e78] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:05:11.532Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5169bf70-55d4-11e4-a028-d71b8f355e78
+[INFO  - 2014-10-17T08:05:12.326Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:05:13.009Z] GhostDriver - Main - running on port 22411
+[INFO  - 2014-10-17T08:05:13.378Z] Session [52836cd0-55d4-11e4-a9a2-333fb63e638d] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:05:13.378Z] Session [52836cd0-55d4-11e4-a9a2-333fb63e638d] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:05:13.378Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 52836cd0-55d4-11e4-a9a2-333fb63e638d
+[INFO  - 2014-10-17T08:05:14.159Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:05:14.822Z] GhostDriver - Main - running on port 15284
+[INFO  - 2014-10-17T08:05:15.214Z] Session [539b9390-55d4-11e4-9a2f-7bd5b3c633f0] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:05:15.214Z] Session [539b9390-55d4-11e4-9a2f-7bd5b3c633f0] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:05:15.214Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 539b9390-55d4-11e4-9a2f-7bd5b3c633f0
+[INFO  - 2014-10-17T08:05:16.125Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:05:16.787Z] GhostDriver - Main - running on port 1797
+[INFO  - 2014-10-17T08:05:17.183Z] Session [54c82cb0-55d4-11e4-a22b-c1678727083d] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:05:17.183Z] Session [54c82cb0-55d4-11e4-a22b-c1678727083d] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:05:17.184Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 54c82cb0-55d4-11e4-a22b-c1678727083d
+[INFO  - 2014-10-17T08:05:18.019Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:05:18.675Z] GhostDriver - Main - running on port 20726
+[INFO  - 2014-10-17T08:05:19.076Z] Session [55e890d0-55d4-11e4-9a0d-b13fb6f0f656] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:05:19.077Z] Session [55e890d0-55d4-11e4-9a0d-b13fb6f0f656] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:05:19.077Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 55e890d0-55d4-11e4-9a0d-b13fb6f0f656
+[INFO  - 2014-10-17T08:05:19.760Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:05:20.413Z] GhostDriver - Main - running on port 32114
+[INFO  - 2014-10-17T08:05:20.810Z] Session [56f19c60-55d4-11e4-a1ae-af73f723e4f2] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:05:20.810Z] Session [56f19c60-55d4-11e4-a1ae-af73f723e4f2] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:05:20.810Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 56f19c60-55d4-11e4-a1ae-af73f723e4f2
+[INFO  - 2014-10-17T08:05:21.833Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:05:22.494Z] GhostDriver - Main - running on port 12735
+[INFO  - 2014-10-17T08:05:22.894Z] Session [582f4c80-55d4-11e4-841f-15e9cd1f75dc] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:05:22.894Z] Session [582f4c80-55d4-11e4-841f-15e9cd1f75dc] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:05:22.894Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 582f4c80-55d4-11e4-841f-15e9cd1f75dc
+[INFO  - 2014-10-17T08:05:23.762Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:05:24.417Z] GhostDriver - Main - running on port 18777
+[INFO  - 2014-10-17T08:05:24.816Z] Session [5954b9b0-55d4-11e4-99af-29f2e82ac6f0] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:05:24.816Z] Session [5954b9b0-55d4-11e4-99af-29f2e82ac6f0] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:05:24.816Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5954b9b0-55d4-11e4-99af-29f2e82ac6f0
+[INFO  - 2014-10-17T08:05:25.665Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:05:26.320Z] GhostDriver - Main - running on port 26934
+[INFO  - 2014-10-17T08:05:26.716Z] Session [5a76cb80-55d4-11e4-94fd-8fe2dca062cf] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:05:26.716Z] Session [5a76cb80-55d4-11e4-94fd-8fe2dca062cf] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:05:26.716Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5a76cb80-55d4-11e4-94fd-8fe2dca062cf
+[INFO  - 2014-10-17T08:05:27.969Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:05:28.617Z] GhostDriver - Main - running on port 13728
+[INFO  - 2014-10-17T08:05:29.021Z] Session [5bd5e650-55d4-11e4-996e-e34f78d9c9cf] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:05:29.021Z] Session [5bd5e650-55d4-11e4-996e-e34f78d9c9cf] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:05:29.021Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5bd5e650-55d4-11e4-996e-e34f78d9c9cf
+[INFO  - 2014-10-17T08:05:30.467Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:05:31.128Z] GhostDriver - Main - running on port 18107
+[INFO  - 2014-10-17T08:05:31.524Z] Session [5d5448f0-55d4-11e4-ab57-31785df5144f] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:05:31.524Z] Session [5d5448f0-55d4-11e4-ab57-31785df5144f] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:05:31.524Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5d5448f0-55d4-11e4-ab57-31785df5144f
+[INFO  - 2014-10-17T08:05:36.380Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:05:37.024Z] GhostDriver - Main - running on port 8964
+[INFO  - 2014-10-17T08:05:37.428Z] Session [60d902e0-55d4-11e4-b448-c73de5068776] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:05:37.428Z] Session [60d902e0-55d4-11e4-b448-c73de5068776] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:05:37.428Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 60d902e0-55d4-11e4-b448-c73de5068776
+[INFO  - 2014-10-17T08:05:38.246Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:05:38.905Z] GhostDriver - Main - running on port 12137
+[INFO  - 2014-10-17T08:05:39.300Z] Session [61f6cef0-55d4-11e4-acb1-d30c36652158] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:05:39.300Z] Session [61f6cef0-55d4-11e4-acb1-d30c36652158] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:05:39.300Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 61f6cef0-55d4-11e4-acb1-d30c36652158
+[INFO  - 2014-10-17T08:05:40.319Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:05:40.981Z] GhostDriver - Main - running on port 31454
+[INFO  - 2014-10-17T08:05:41.376Z] Session [633394b0-55d4-11e4-90a6-47f6bde00283] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:05:41.377Z] Session [633394b0-55d4-11e4-90a6-47f6bde00283] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:05:41.377Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 633394b0-55d4-11e4-90a6-47f6bde00283
+[INFO  - 2014-10-17T08:05:48.101Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:05:48.786Z] GhostDriver - Main - running on port 10139
+[INFO  - 2014-10-17T08:05:49.180Z] Session [67da1250-55d4-11e4-ac85-c95f1de21eff] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:05:49.181Z] Session [67da1250-55d4-11e4-ac85-c95f1de21eff] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:05:49.181Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 67da1250-55d4-11e4-ac85-c95f1de21eff
+[INFO  - 2014-10-17T08:05:59.171Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:05:59.815Z] GhostDriver - Main - running on port 1691
+[INFO  - 2014-10-17T08:06:00.218Z] Session [6e6ea450-55d4-11e4-985a-bbf07a52c0f2] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:06:00.218Z] Session [6e6ea450-55d4-11e4-985a-bbf07a52c0f2] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:06:00.218Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 6e6ea450-55d4-11e4-985a-bbf07a52c0f2
+[INFO  - 2014-10-17T08:06:00.565Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-17T08:06:01.208Z] GhostDriver - Main - running on port 17459
+[INFO  - 2014-10-17T08:06:01.597Z] Session [6f413690-55d4-11e4-8d59-cfb019da6a34] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-17T08:06:01.597Z] Session [6f413690-55d4-11e4-8d59-cfb019da6a34] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-17T08:06:01.597Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 6f413690-55d4-11e4-8d59-cfb019da6a34
+[INFO  - 2014-10-17T08:11:01.208Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T08:16:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T08:21:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T08:26:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T08:31:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T08:36:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T08:41:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T08:46:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T08:51:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T08:56:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T09:01:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T09:06:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T09:11:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T09:16:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T09:21:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T09:26:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T09:31:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T09:36:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T09:41:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T09:46:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T09:51:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T09:56:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T10:01:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T10:06:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T10:11:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T10:16:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T10:21:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T10:26:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T10:31:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T10:36:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T10:41:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T10:46:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T10:51:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T10:56:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T11:01:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T11:06:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T11:11:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T11:16:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T11:21:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T11:26:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T11:31:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T11:36:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T11:41:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T11:46:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T11:51:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T11:56:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T12:01:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T12:06:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T12:11:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T12:16:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T12:21:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T12:26:01.208Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T12:31:01.207Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T12:36:01.208Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T12:41:01.208Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T12:46:01.208Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T12:51:01.208Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T12:56:01.208Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T13:01:01.208Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T13:06:01.208Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T13:11:01.208Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T13:16:01.208Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T13:21:01.208Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T13:26:01.208Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T13:31:01.208Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T13:36:01.208Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T13:41:01.208Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T13:46:01.208Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T13:51:01.208Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T13:56:01.208Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T14:01:01.208Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T14:06:01.208Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T14:11:01.209Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-17T14:16:01.209Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T08:05:48.127Z] GhostDriver - Main - running on port 32561
+[INFO  - 2014-10-18T08:05:49.331Z] Session [925b51f0-569d-11e4-8b9f-1f6398821a91] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:05:49.331Z] Session [925b51f0-569d-11e4-8b9f-1f6398821a91] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:05:49.331Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 925b51f0-569d-11e4-8b9f-1f6398821a91
+[INFO  - 2014-10-18T08:05:58.276Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:12:14.620Z] GhostDriver - Main - running on port 18015
+[INFO  - 2014-10-18T08:12:15.227Z] Session [785e6070-569e-11e4-bc64-eb75ca95f3dd] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:12:15.227Z] Session [785e6070-569e-11e4-bc64-eb75ca95f3dd] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:12:15.227Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 785e6070-569e-11e4-bc64-eb75ca95f3dd
+[INFO  - 2014-10-18T08:12:20.884Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:12:43.380Z] GhostDriver - Main - running on port 26737
+[INFO  - 2014-10-18T08:12:43.995Z] Session [89840670-569e-11e4-bf9e-e9d3d46c7829] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:12:43.995Z] Session [89840670-569e-11e4-bf9e-e9d3d46c7829] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:12:43.996Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 89840670-569e-11e4-bf9e-e9d3d46c7829
+[INFO  - 2014-10-18T08:12:44.606Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:13:17.791Z] GhostDriver - Main - running on port 22434
+[INFO  - 2014-10-18T08:13:19.046Z] Session [9e681400-569e-11e4-93e0-770be0ad892f] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:13:19.046Z] Session [9e681400-569e-11e4-93e0-770be0ad892f] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:13:19.046Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9e681400-569e-11e4-93e0-770be0ad892f
+[INFO  - 2014-10-18T08:13:20.806Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:16:08.040Z] GhostDriver - Main - running on port 4542
+[INFO  - 2014-10-18T08:16:08.641Z] Session [037e86d0-569f-11e4-896e-cff3c12c7f88] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:16:08.641Z] Session [037e86d0-569f-11e4-896e-cff3c12c7f88] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:16:08.641Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 037e86d0-569f-11e4-896e-cff3c12c7f88
+[INFO  - 2014-10-18T08:16:10.155Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:16:16.707Z] GhostDriver - Main - running on port 29725
+[INFO  - 2014-10-18T08:16:17.128Z] Session [088cc6f0-569f-11e4-8320-c906303693a8] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:16:17.129Z] Session [088cc6f0-569f-11e4-8320-c906303693a8] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:16:17.129Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 088cc6f0-569f-11e4-8320-c906303693a8
+[INFO  - 2014-10-18T08:16:17.698Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:16:37.633Z] GhostDriver - Main - running on port 11669
+[INFO  - 2014-10-18T08:16:38.041Z] Session [15042720-569f-11e4-865f-0b7837e7d406] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:16:38.042Z] Session [15042720-569f-11e4-865f-0b7837e7d406] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:16:38.042Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 15042720-569f-11e4-865f-0b7837e7d406
+[INFO  - 2014-10-18T08:16:38.631Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:16:39.265Z] GhostDriver - Main - running on port 23586
+[INFO  - 2014-10-18T08:16:39.669Z] Session [15fcdf00-569f-11e4-8989-23ca5a3563c2] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:16:39.669Z] Session [15fcdf00-569f-11e4-8989-23ca5a3563c2] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:16:39.669Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 15fcdf00-569f-11e4-8989-23ca5a3563c2
+[INFO  - 2014-10-18T08:16:42.508Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:16:43.418Z] GhostDriver - Main - running on port 6813
+[INFO  - 2014-10-18T08:16:43.825Z] Session [18769190-569f-11e4-838e-07160e5033a4] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:16:43.825Z] Session [18769190-569f-11e4-838e-07160e5033a4] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:16:43.825Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 18769190-569f-11e4-838e-07160e5033a4
+[INFO  - 2014-10-18T08:16:44.851Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:16:45.683Z] GhostDriver - Main - running on port 21226
+[INFO  - 2014-10-18T08:16:46.060Z] Session [19cbe860-569f-11e4-a3f0-c514fe2fc717] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:16:46.060Z] Session [19cbe860-569f-11e4-a3f0-c514fe2fc717] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:16:46.060Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 19cbe860-569f-11e4-a3f0-c514fe2fc717
+[INFO  - 2014-10-18T08:16:46.733Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:16:47.383Z] GhostDriver - Main - running on port 5771
+[INFO  - 2014-10-18T08:16:47.778Z] Session [1ad25be0-569f-11e4-b2d2-23c8e297f715] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:16:47.778Z] Session [1ad25be0-569f-11e4-b2d2-23c8e297f715] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:16:47.778Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1ad25be0-569f-11e4-b2d2-23c8e297f715
+[INFO  - 2014-10-18T08:16:54.407Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:16:55.570Z] GhostDriver - Main - running on port 5778
+[INFO  - 2014-10-18T08:16:55.953Z] Session [1fb175b0-569f-11e4-a278-c96c5ffc9721] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:16:55.953Z] Session [1fb175b0-569f-11e4-a278-c96c5ffc9721] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:16:55.953Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1fb175b0-569f-11e4-a278-c96c5ffc9721
+[INFO  - 2014-10-18T08:16:57.926Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:16:58.728Z] GhostDriver - Main - running on port 7172
+[INFO  - 2014-10-18T08:16:59.081Z] Session [218ee840-569f-11e4-982f-a7b03b262e59] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:16:59.081Z] Session [218ee840-569f-11e4-982f-a7b03b262e59] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:16:59.082Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 218ee840-569f-11e4-982f-a7b03b262e59
+[INFO  - 2014-10-18T08:16:59.228Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:16:59.855Z] GhostDriver - Main - running on port 29912
+[INFO  - 2014-10-18T08:17:00.258Z] Session [224280d0-569f-11e4-bb0e-171128ffa804] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:17:00.258Z] Session [224280d0-569f-11e4-bb0e-171128ffa804] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:17:00.258Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 224280d0-569f-11e4-bb0e-171128ffa804
+[INFO  - 2014-10-18T08:17:00.544Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:17:01.298Z] GhostDriver - Main - running on port 13496
+[INFO  - 2014-10-18T08:17:01.647Z] Session [231699b0-569f-11e4-9288-b9726c4d3bc5] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:17:01.648Z] Session [231699b0-569f-11e4-9288-b9726c4d3bc5] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:17:01.648Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 231699b0-569f-11e4-9288-b9726c4d3bc5
+[INFO  - 2014-10-18T08:17:02.715Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:17:03.366Z] GhostDriver - Main - running on port 3485
+[INFO  - 2014-10-18T08:17:03.772Z] Session [245ad980-569f-11e4-99c0-554026de26c1] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:17:03.772Z] Session [245ad980-569f-11e4-99c0-554026de26c1] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:17:03.772Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 245ad980-569f-11e4-99c0-554026de26c1
+[INFO  - 2014-10-18T08:17:10.127Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:17:10.824Z] GhostDriver - Main - running on port 6690
+[INFO  - 2014-10-18T08:17:11.234Z] Session [28cd00b0-569f-11e4-9318-1d5eab1a28b1] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:17:11.234Z] Session [28cd00b0-569f-11e4-9318-1d5eab1a28b1] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:17:11.234Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 28cd00b0-569f-11e4-9318-1d5eab1a28b1
+[INFO  - 2014-10-18T08:17:13.069Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:17:13.714Z] GhostDriver - Main - running on port 9825
+[INFO  - 2014-10-18T08:17:14.125Z] Session [2a862260-569f-11e4-8da4-8b3581d3e7cc] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:17:14.125Z] Session [2a862260-569f-11e4-8da4-8b3581d3e7cc] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:17:14.125Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 2a862260-569f-11e4-8da4-8b3581d3e7cc
+[INFO  - 2014-10-18T08:17:22.130Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:17:22.769Z] GhostDriver - Main - running on port 32369
+[INFO  - 2014-10-18T08:17:23.176Z] Session [2febaa40-569f-11e4-9ed3-53b0f86d3619] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:17:23.176Z] Session [2febaa40-569f-11e4-9ed3-53b0f86d3619] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:17:23.177Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 2febaa40-569f-11e4-9ed3-53b0f86d3619
+[INFO  - 2014-10-18T08:17:24.667Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:17:25.336Z] GhostDriver - Main - running on port 17356
+[INFO  - 2014-10-18T08:17:25.744Z] Session [31735bb0-569f-11e4-a0dc-cdd5b6808a52] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:17:25.744Z] Session [31735bb0-569f-11e4-a0dc-cdd5b6808a52] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:17:25.744Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 31735bb0-569f-11e4-a0dc-cdd5b6808a52
+[INFO  - 2014-10-18T08:17:27.381Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:17:28.038Z] GhostDriver - Main - running on port 7826
+[INFO  - 2014-10-18T08:17:28.445Z] Session [330fa690-569f-11e4-b954-4dcac61379ef] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:17:28.446Z] Session [330fa690-569f-11e4-b954-4dcac61379ef] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:17:28.446Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 330fa690-569f-11e4-b954-4dcac61379ef
+[INFO  - 2014-10-18T08:17:29.151Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:17:29.784Z] GhostDriver - Main - running on port 7112
+[INFO  - 2014-10-18T08:17:30.186Z] Session [34194e60-569f-11e4-9d1b-f59565d77faa] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:17:30.187Z] Session [34194e60-569f-11e4-9d1b-f59565d77faa] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:17:30.187Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 34194e60-569f-11e4-9d1b-f59565d77faa
+[INFO  - 2014-10-18T08:17:33.463Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:17:34.111Z] GhostDriver - Main - running on port 23363
+[INFO  - 2014-10-18T08:17:34.518Z] Session [36ae0300-569f-11e4-8236-555527ecaefa] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:17:34.518Z] Session [36ae0300-569f-11e4-8236-555527ecaefa] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:17:34.518Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 36ae0300-569f-11e4-8236-555527ecaefa
+[INFO  - 2014-10-18T08:17:34.782Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:17:35.438Z] GhostDriver - Main - running on port 8151
+[INFO  - 2014-10-18T08:17:35.846Z] Session [3778cd10-569f-11e4-91d5-653789389225] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:17:35.846Z] Session [3778cd10-569f-11e4-91d5-653789389225] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:17:35.847Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3778cd10-569f-11e4-91d5-653789389225
+[INFO  - 2014-10-18T08:17:36.849Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:17:37.558Z] GhostDriver - Main - running on port 22167
+[INFO  - 2014-10-18T08:17:37.960Z] Session [38bb8640-569f-11e4-a5a7-dbcf37ccc2df] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:17:37.960Z] Session [38bb8640-569f-11e4-a5a7-dbcf37ccc2df] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:17:37.960Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 38bb8640-569f-11e4-a5a7-dbcf37ccc2df
+[INFO  - 2014-10-18T08:17:39.126Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:17:39.817Z] GhostDriver - Main - running on port 31383
+[INFO  - 2014-10-18T08:17:40.218Z] Session [3a141160-569f-11e4-9a08-81eb14fa1e3b] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:17:40.218Z] Session [3a141160-569f-11e4-9a08-81eb14fa1e3b] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:17:40.218Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3a141160-569f-11e4-9a08-81eb14fa1e3b
+[INFO  - 2014-10-18T08:17:41.110Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:17:41.789Z] GhostDriver - Main - running on port 11065
+[INFO  - 2014-10-18T08:17:42.194Z] Session [3b4146c0-569f-11e4-9ba8-b57ba234a7b0] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:17:42.194Z] Session [3b4146c0-569f-11e4-9ba8-b57ba234a7b0] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:17:42.195Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3b4146c0-569f-11e4-9ba8-b57ba234a7b0
+[INFO  - 2014-10-18T08:17:43.040Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:17:43.703Z] GhostDriver - Main - running on port 20287
+[INFO  - 2014-10-18T08:17:44.109Z] Session [3c65a280-569f-11e4-90ab-f54514158945] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:17:44.109Z] Session [3c65a280-569f-11e4-90ab-f54514158945] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:17:44.109Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3c65a280-569f-11e4-90ab-f54514158945
+[INFO  - 2014-10-18T08:17:44.969Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:17:45.646Z] GhostDriver - Main - running on port 10541
+[INFO  - 2014-10-18T08:17:46.049Z] Session [3d8dced0-569f-11e4-bbe8-5d1ca6af3ac3] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:17:46.049Z] Session [3d8dced0-569f-11e4-bbe8-5d1ca6af3ac3] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:17:46.049Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3d8dced0-569f-11e4-bbe8-5d1ca6af3ac3
+[INFO  - 2014-10-18T08:17:46.941Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:17:47.615Z] GhostDriver - Main - running on port 23127
+[INFO  - 2014-10-18T08:17:48.018Z] Session [3eba19d0-569f-11e4-8295-1f08d61d8d9e] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:17:48.018Z] Session [3eba19d0-569f-11e4-8295-1f08d61d8d9e] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:17:48.019Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3eba19d0-569f-11e4-8295-1f08d61d8d9e
+[INFO  - 2014-10-18T08:17:54.842Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:17:55.539Z] GhostDriver - Main - running on port 17806
+[INFO  - 2014-10-18T08:17:55.945Z] Session [43733510-569f-11e4-97bc-058c0de19e10] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:17:55.945Z] Session [43733510-569f-11e4-97bc-058c0de19e10] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:17:55.946Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 43733510-569f-11e4-97bc-058c0de19e10
+[INFO  - 2014-10-18T08:17:56.975Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:17:57.659Z] GhostDriver - Main - running on port 25851
+[INFO  - 2014-10-18T08:17:58.060Z] Session [44b63c60-569f-11e4-ba47-27fd871ccc10] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:17:58.060Z] Session [44b63c60-569f-11e4-ba47-27fd871ccc10] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:17:58.060Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 44b63c60-569f-11e4-ba47-27fd871ccc10
+[INFO  - 2014-10-18T08:17:58.955Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:17:59.630Z] GhostDriver - Main - running on port 24224
+[INFO  - 2014-10-18T08:18:00.037Z] Session [45e398d0-569f-11e4-998c-7b918cdd7a06] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:18:00.037Z] Session [45e398d0-569f-11e4-998c-7b918cdd7a06] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:18:00.039Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 45e398d0-569f-11e4-998c-7b918cdd7a06
+[INFO  - 2014-10-18T08:18:00.965Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:18:01.644Z] GhostDriver - Main - running on port 20406
+[INFO  - 2014-10-18T08:18:02.045Z] Session [47167380-569f-11e4-a301-31d480ac17a8] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:18:02.045Z] Session [47167380-569f-11e4-a301-31d480ac17a8] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:18:02.045Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 47167380-569f-11e4-a301-31d480ac17a8
+[INFO  - 2014-10-18T08:18:02.937Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:18:03.608Z] GhostDriver - Main - running on port 21513
+[INFO  - 2014-10-18T08:18:04.013Z] Session [4842e590-569f-11e4-a62b-9d4a168a93d3] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:18:04.013Z] Session [4842e590-569f-11e4-a62b-9d4a168a93d3] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:18:04.013Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4842e590-569f-11e4-a62b-9d4a168a93d3
+[INFO  - 2014-10-18T08:18:04.872Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:18:05.558Z] GhostDriver - Main - running on port 16091
+[INFO  - 2014-10-18T08:18:05.958Z] Session [496b6000-569f-11e4-83d1-ff09d5ecae1d] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:18:05.958Z] Session [496b6000-569f-11e4-83d1-ff09d5ecae1d] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:18:05.961Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 496b6000-569f-11e4-83d1-ff09d5ecae1d
+[INFO  - 2014-10-18T08:18:06.822Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:18:07.514Z] GhostDriver - Main - running on port 4609
+[INFO  - 2014-10-18T08:18:07.909Z] Session [4a94ebe0-569f-11e4-8df6-5d7c159ef033] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:18:07.909Z] Session [4a94ebe0-569f-11e4-8df6-5d7c159ef033] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:18:07.910Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4a94ebe0-569f-11e4-8df6-5d7c159ef033
+[INFO  - 2014-10-18T08:18:08.782Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:18:09.458Z] GhostDriver - Main - running on port 19614
+[INFO  - 2014-10-18T08:18:09.867Z] Session [4bbfd750-569f-11e4-800e-a7640d3d66ea] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:18:09.868Z] Session [4bbfd750-569f-11e4-800e-a7640d3d66ea] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:18:09.868Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4bbfd750-569f-11e4-800e-a7640d3d66ea
+[INFO  - 2014-10-18T08:18:10.620Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:18:11.282Z] GhostDriver - Main - running on port 32676
+[INFO  - 2014-10-18T08:18:11.691Z] Session [4cd62950-569f-11e4-9002-ed93b33d5009] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:18:11.691Z] Session [4cd62950-569f-11e4-9002-ed93b33d5009] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:18:11.691Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4cd62950-569f-11e4-9002-ed93b33d5009
+[INFO  - 2014-10-18T08:18:12.513Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:18:13.178Z] GhostDriver - Main - running on port 4891
+[INFO  - 2014-10-18T08:18:13.585Z] Session [4df6b480-569f-11e4-b6c3-6b0c4eeb3d81] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:18:13.585Z] Session [4df6b480-569f-11e4-b6c3-6b0c4eeb3d81] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:18:13.585Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4df6b480-569f-11e4-b6c3-6b0c4eeb3d81
+[INFO  - 2014-10-18T08:18:14.493Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:18:15.199Z] GhostDriver - Main - running on port 25722
+[INFO  - 2014-10-18T08:18:15.594Z] Session [4f29b640-569f-11e4-820f-97f3b788b7cb] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:18:15.594Z] Session [4f29b640-569f-11e4-820f-97f3b788b7cb] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:18:15.594Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4f29b640-569f-11e4-820f-97f3b788b7cb
+[INFO  - 2014-10-18T08:18:16.485Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:18:17.158Z] GhostDriver - Main - running on port 1032
+[INFO  - 2014-10-18T08:18:17.566Z] Session [50569d80-569f-11e4-8836-27056a7c11e5] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:18:17.567Z] Session [50569d80-569f-11e4-8836-27056a7c11e5] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:18:17.567Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 50569d80-569f-11e4-8836-27056a7c11e5
+[INFO  - 2014-10-18T08:18:18.357Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:18:19.028Z] GhostDriver - Main - running on port 10365
+[INFO  - 2014-10-18T08:18:19.424Z] Session [51726dc0-569f-11e4-abe1-655b5301e968] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:18:19.424Z] Session [51726dc0-569f-11e4-abe1-655b5301e968] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:18:19.424Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 51726dc0-569f-11e4-abe1-655b5301e968
+[INFO  - 2014-10-18T08:18:20.262Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:18:20.918Z] GhostDriver - Main - running on port 23438
+[INFO  - 2014-10-18T08:18:21.322Z] Session [5293e350-569f-11e4-9317-9da3aa02d5d5] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:18:21.322Z] Session [5293e350-569f-11e4-9317-9da3aa02d5d5] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:18:21.323Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5293e350-569f-11e4-9317-9da3aa02d5d5
+[INFO  - 2014-10-18T08:18:22.225Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:18:22.902Z] GhostDriver - Main - running on port 22632
+[INFO  - 2014-10-18T08:18:23.309Z] Session [53c31480-569f-11e4-8b0d-517c6e649c61] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:18:23.309Z] Session [53c31480-569f-11e4-8b0d-517c6e649c61] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:18:23.309Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 53c31480-569f-11e4-8b0d-517c6e649c61
+[INFO  - 2014-10-18T08:18:24.171Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:18:24.858Z] GhostDriver - Main - running on port 4779
+[INFO  - 2014-10-18T08:18:25.257Z] Session [54ec2b30-569f-11e4-953c-f1626f4305d4] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:18:25.257Z] Session [54ec2b30-569f-11e4-953c-f1626f4305d4] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:18:25.258Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 54ec2b30-569f-11e4-953c-f1626f4305d4
+[INFO  - 2014-10-18T08:18:27.689Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:18:28.367Z] GhostDriver - Main - running on port 4473
+[INFO  - 2014-10-18T08:18:28.775Z] Session [5704d200-569f-11e4-9d47-215aa90c8b84] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:18:28.775Z] Session [5704d200-569f-11e4-9d47-215aa90c8b84] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:18:28.775Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5704d200-569f-11e4-9d47-215aa90c8b84
+[INFO  - 2014-10-18T08:18:29.671Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:18:30.350Z] GhostDriver - Main - running on port 22297
+[INFO  - 2014-10-18T08:18:30.750Z] Session [58325580-569f-11e4-af81-47b7c0461a4a] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:18:30.750Z] Session [58325580-569f-11e4-af81-47b7c0461a4a] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:18:30.750Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 58325580-569f-11e4-af81-47b7c0461a4a
+[INFO  - 2014-10-18T08:23:30.348Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T08:28:30.347Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T08:33:30.347Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T08:35:12.117Z] GhostDriver - Main - running on port 11546
+[INFO  - 2014-10-18T08:35:12.521Z] Session [ad4cc350-56a1-11e4-8098-4560196a2555] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:35:12.521Z] Session [ad4cc350-56a1-11e4-8098-4560196a2555] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:35:12.521Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ad4cc350-56a1-11e4-8098-4560196a2555
+[INFO  - 2014-10-18T08:35:19.504Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:35:20.137Z] GhostDriver - Main - running on port 23499
+[INFO  - 2014-10-18T08:35:20.547Z] Session [b21520d0-56a1-11e4-96af-7f1ee663b5a6] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:35:20.547Z] Session [b21520d0-56a1-11e4-96af-7f1ee663b5a6] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:35:20.547Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b21520d0-56a1-11e4-96af-7f1ee663b5a6
+[INFO  - 2014-10-18T08:35:20.908Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2014-10-18T08:35:21.537Z] GhostDriver - Main - running on port 6917
+[INFO  - 2014-10-18T08:35:21.939Z] Session [b2e9aee0-56a1-11e4-be86-05b84a9b471f] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:35:21.940Z] Session [b2e9aee0-56a1-11e4-be86-05b84a9b471f] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:35:21.940Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b2e9aee0-56a1-11e4-be86-05b84a9b471f
+[INFO  - 2014-10-18T08:38:11.925Z] GhostDriver - Main - running on port 4163
+[INFO  - 2014-10-18T08:38:12.530Z] Session [1897f4e0-56a2-11e4-b4a6-510d7990033c] - CONSTRUCTOR - Desired Capabilities: {"platform":"ANY","browserName":"phantomjs","version":""}
+[INFO  - 2014-10-18T08:38:12.530Z] Session [1897f4e0-56a2-11e4-b4a6-510d7990033c] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.0","driverName":"ghostdriver","driverVersion":"1.0.3","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-10-18T08:38:12.531Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1897f4e0-56a2-11e4-b4a6-510d7990033c
+[INFO  - 2014-10-18T08:40:21.536Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T08:43:11.924Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T08:45:21.536Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T08:48:11.924Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T08:50:21.536Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T08:53:11.924Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T08:55:21.536Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T08:58:11.924Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T09:00:21.536Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T09:03:11.924Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T09:05:21.536Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T09:08:11.924Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T09:10:21.536Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T09:13:11.924Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T09:15:21.536Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T09:18:11.924Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T09:20:21.536Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T09:23:11.924Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T09:25:21.536Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T09:28:11.924Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T09:30:21.536Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T09:33:11.924Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T09:35:21.536Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T09:38:11.924Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T09:40:21.536Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T09:43:11.924Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T09:45:21.536Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T09:48:11.924Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T09:50:21.536Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T09:53:11.924Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T09:55:21.536Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T09:58:11.924Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T10:00:21.536Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T10:03:11.924Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T10:05:21.536Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-10-18T10:08:11.932Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

@@ -41,11 +41,9 @@
 </mongo:mongo>
 <!--${mongod-dbName}-->
 
-<mongo:db-factory dbname="sp" mongo-ref="mongo"   username="${mongo.username}" password="${mongo.password}"/>
+<mongo:db-factory id="info" dbname="info" mongo-ref="mongo"   username="${mongo.username}" password="${mongo.password}"/>
 
-<bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
-  <constructor-arg name="mongoDbFactory" ref="mongoDbFactory"/>
-</bean>
+
 
 
 
