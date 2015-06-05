@@ -15,7 +15,8 @@ import com.yufei.pfw.entity.Entity;
 @XmlRootElement()
 @XmlType(propOrder={"property","match","matchType"})
 public class PropertyMatch extends Entity{
-public final static String regex_key="regex";	
+public final static String regex_key="regex";
+public final static String xpath_key="xpath";
 	/**
 	 * match 格式为：regex!regex!...;index
 	 * 程序在处理的时候只需要更具regex去匹配目标内容返回字符串即可
