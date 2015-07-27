@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskConfig>
+<!-- 
+<h2>([\s\S\r\n]{0,}?)</h2>   name 
+&lt;h2&gt;([\s\S\r\n]{0,}?)&lt;/h2&gt;
+class=["]{0,}price["]{0,}[\r\n\s\S]{0,}&lt;del&gt;¥(.*?)&lt;/del&gt;  原价格
+class=price[\r\n\s\S]{0,}<del>(.*?)</del>
+class=discount&gt;(.*?)折&lt;/span&gt;    折扣
+class=discount>(.*?)折</span> 
+已售：<strong>(.*?)</strong>  已经售出
+已售：&lt;strong&gt;(.*?)&lt;/strong&gt;
+
+data-targettime="(.*?)" endDate
+data-img-url="(.*?)"      img
+
+
+
+
+
+ -->
+    <tasks>
+        <task>
+            <id></id>
+            <entityFullName>com.yufei.infoExtractor.pfw.entity.Rp</entityFullName>
+            <intervalPeriodTime>0</intervalPeriodTime>
+            <seedsites>
+			
+
+			
+			
+		
+              <seedsite>
+                    <depth>2</depth>
+                    <domain>www.dianping.com</domain>
+                    <ipadress></ipadress>
+                    <isFetched>0</isFetched>
+					<usefullLinks>
+					<usefullLink>
+					<linkType>linkTypeSource</linkType>
+					<linkUrl>http://ju.taobao.com/json/tg/ajaxGetItems.htm?stype=default&amp;reverse=&amp;page=1&amp;ck=%E5%8C%97%E4%BA%AC&amp;_input_charset=utf-8&amp;home=true&amp;async=true&amp;callback=getAjaxList</linkUrl>
+					</usefullLink>
+	                <usefullLink>
+					<linkType>linkTypeTarget</linkType>
+					<linkUrl>.*id=.*</linkUrl>
+					</usefullLink>
+	                </usefullLinks>	
+                     <paginationRule>
+                        <paginationTemplate>http://ju.taobao.com/json/tg/ajaxGetItems.htm?stype=default&amp;reverse=&amp;page={}&amp;ck=%E5%8C%97%E4%BA%AC&amp;_input_charset=utf-8&amp;home=true&amp;async=true&amp;callback=getAjaxList</paginationTemplate>
+                        <parameters>
+                        <parameter>
+<parameterIndex>1</parameterIndex>
+<parameterType>Integer</parameterType>
+<parameterValue>1</parameterValue>
+                            </parameter>
+                        </parameters>
+                    </paginationRule>
+                 
+                    
+				   
+                
+
+                    <passedSimilarityValue>0.8</passedSimilarityValue>
+                      <pattern>
+                        <propertyMatches>
+                            <propertyMatch>
+<property>linkFilterRegex</property>
+<match>
+<entry key="regex">href=&quot;(.*?)&quot;</entry>
+</match>
+<matchType>commonMatchType</matchType>
+                            </propertyMatch>
+                            <propertyMatch>
+<property>rpName</property>
+
+<match>
+<entry key="regex">&lt;h2&gt;([\s\S\r\n]{0,}?)&lt;/h2&gt;</entry>
+
+</match>
+<matchType>commonMatchType</matchType>
+
+
+                            </propertyMatch>
+                           
+
+							
+							
+							   
+
+							
+			    <propertyMatch>
+<property>endTime</property>
+<match>
+<entry key="regex">data-targettime="(.*?)"</entry>
+
+</match>
+<matchType>commonMatchType</matchType>
+
+                            </propertyMatch>						
+							
+                            <propertyMatch>
+<property>orderedNumber</property>
+<match>
+
+<entry key="regex">已售：&lt;strong&gt;(.*?)&lt;/strong&gt;</entry>
+
+</match>
+<matchType>commonMatchType</matchType>
+
+                            </propertyMatch>
+                           
+
+                            <propertyMatch>
+<property>price</property>
+<match>
+<entry key="regex">class=["]{0,}price["]{0,}[\r\n\s\S]{0,}&lt;del&gt;¥(.*?)&lt;/del&gt;</entry>
+
+</match>
+<matchType>commonMatchType</matchType>
+
+                            </propertyMatch>
+							
+
+
+							
+                            <propertyMatch>
+<property>discount</property>
+<match>
+<entry key="regex">class=["]{0,}discount["]{0,}&gt;(.*?)折&lt;/span&gt;</entry>
+
+</match>
+<matchType>commonMatchType</matchType>
+
+                            </propertyMatch>
+                        <!--     <propertyMatch>
+<property>pictureName</property>
+<match>
+<entry key="regex">data-img-url="(.*?)"</entry>
+
+</match>
+
+<matchType>mediaMatchType</matchType>
+                            </propertyMatch> -->
+                             <propertyMatch>
+<property>pictureUrl</property>
+<match>
+<entry key="regex">data-img-url="(.*?)"</entry>
+
+</match>
+
+<matchType>commonMatchType</matchType>
+                            </propertyMatch>
+							                          
+
+
+							
+                        </propertyMatches>
+                        <taskName>hotel</taskName>
+                    </pattern>
+					<dataRetrieverFeatures>
+					 <proxyServerIdentity></proxyServerIdentity>
+                    <requestExecuteJs>true</requestExecuteJs>
+					<requestTimeout>10000</requestTimeout>
+					<isCookiesSupport>false</isCookiesSupport>
+					<connectionTimeout>10000</connectionTimeout>
+					<connectIntervalTime>0</connectIntervalTime>
+					<requestType>get</requestType>
+					</dataRetrieverFeatures>
+                   
+                    <siteDesc></siteDesc>
+                    <siteName>http://ju.taobao.com/json/tg/ajaxGetItems.htm?stype=default&amp;reverse=&amp;page=1&amp;ck=%E5%8C%97%E4%BA%AC&amp;_input_charset=utf-8&amp;home=true&amp;async=true&amp;callback=getAjaxList</siteName>
+                    <status>0</status>
+                    <taskName>hotel</taskName>
+                </seedsite>
+				<!--****************************************************************************************-->
+				
+
+
+            </seedsites>
+            <status>0</status>
+            <taskExecuteJobFullName>com.yufei.infoExtractor.task.InfoExtractorCommonTask</taskExecuteJobFullName>
+            <taskName>hotel</taskName>
+			<actionConfigs>
+			 <actionConfig>
+		         <infoActionClassFullClassName>com.yufei.infoExtractor.action.InfoPreAction</infoActionClassFullClassName>
+				 <infoActionType>PRE</infoActionType>
+		         </actionConfig>      		
+			 			 <actionConfig>
+		         <infoActionClassFullClassName>com.yufei.infoExtractor.action.PreTaskCheckAction</infoActionClassFullClassName>
+				 <infoActionType>PRE</infoActionType>
+		         </actionConfig>   			
+                 <actionConfig>
+		         <infoActionClassFullClassName>com.yufei.infoExtractor.extractor.UrlExtractor</infoActionClassFullClassName>
+				 <infoActionType>EXTRACTORURL</infoActionType>
+		         </actionConfig>            
+				 <actionConfig>
+		         <infoActionClassFullClassName>com.yufei.infoExtractor.extractor.ContentExtractor</infoActionClassFullClassName>
+				 <infoActionType>EXTRACTORCONTENT</infoActionType>
+		         </actionConfig>      
+                 <actionConfig>
+		         <infoActionClassFullClassName>com.yufei.infoExtractor.action.DataExportToExcelAction</infoActionClassFullClassName>
+				 <infoActionType>EXPORT</infoActionType>
+		         </actionConfig>      				 
+		    <actionConfig>
+		         <infoActionClassFullClassName>com.yufei.infoExtractor.action.InfoPostAction</infoActionClassFullClassName>
+				 <infoActionType>POST</infoActionType>
+		         </actionConfig>     		
+		 
+		 
+		    </actionConfigs>
+        </task>
+    </tasks>
+</taskConfig>

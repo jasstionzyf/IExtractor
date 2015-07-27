@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskConfig>
+    <tasks>
+        <task>
+            <id></id>
+            <entityFullName>com.yufei.infoExtractor.pfw.entity.Meishi</entityFullName>
+            <intervalPeriodTime>0</intervalPeriodTime>
+            <seedsites>
+                <seedsite>
+                    <depth>3</depth>
+                    <domain>http://www.dianping.com</domain>
+                    <ipadress></ipadress>
+                    <isFetched>0</isFetched>
+					<!--用于更加精确的保证目标链接的准确性，如果为空的话则所有链接都会处理-->
+					<usefullLinks>
+					<usefullLink>
+					<linkType>linkTypeSource</linkType>
+					<linkUrl>http://www.dianping.com/search/category/2/10/g1785p3</linkUrl>
+					</usefullLink>
+	                <usefullLink>
+					<linkType>linkTypeTarget</linkType>
+					<linkUrl>http://www.dianping.com/shop/507755</linkUrl>
+					</usefullLink>
+	                </usefullLinks>	
+                   
+				   
+                    <paginationRule>
+                        <parameters/>
+                    </paginationRule>
+                    <passedSimilarityValue>0.9</passedSimilarityValue>
+             
+			 
+                   
+                    <pattern>
+                        <propertyMatches>
+                            <propertyMatch>
+<property>linkFilterRegex</property>
+<match>href=&quot;(.*?)&quot;</match>
+                            </propertyMatch>
+                            <propertyMatch>
+<property>name</property>
+<match>&amp;lt;h1[\s\S\r\n]{0,}?&amp;gt;(.*?)&amp;lt;/h1&amp;gt;</match>
+                            </propertyMatch>
+                            <propertyMatch>
+<property>comments</property>
+<!---评论内容正则表达式:分页template:每页的记录数:总评论数目正则匹配表达式:begainPagNumber:pagNumberSpace-->
+<match>&amp;lt;div[\s\S]{0,}comment-entry"&amp;gt;(.*?)&amp;lt;/div&amp;gt;:http://www.dianping.com/shop/2743444/review_all?pageno={}:20:&amp;lt;span itemprop="count"&amp;gt;(.*)&amp;lt;/span&amp;gt;:1:1</match>
+<matchType>collection_ua_assembleUrl</matchType>
+
+						  </propertyMatch>
+                            <propertyMatch>
+<property>area</property>
+<match>&amp;lt;span[\s\S\r\n]{0,}?&amp;gt;(.*?)&amp;lt;/span&amp;gt;</match>
+                            </propertyMatch>
+                            <propertyMatch>
+<property>tags</property>
+<match>标签:&amp;lt;/dt&amp;gt;([\s\S\r\n]{0,})&amp;lt;/dl&amp;gt;</match>
+                            </propertyMatch>
+                          
+                           
+                 
+                        </propertyMatches>
+                        <taskName>MeiShi</taskName>
+                    </pattern>
+                    <protocolType></protocolType>
+                    <requestExecuteJs>true</requestExecuteJs>
+                    <siteDesc></siteDesc>
+                    <siteName>http://www.dianping.com/shop/4660438?KID=142252</siteName>
+                    <status>0</status>
+                    <taskName>MeiShi</taskName>
+                </seedsite>
+            </seedsites>
+            <status>0</status>
+            <taskExecuteJobFullName>com.yufei.infoExtractor.task.InfoExtractorCommonTask</taskExecuteJobFullName>
+            <taskName>MeiShi</taskName>
+			
+			<actionConfigs>
+			 <actionConfig>
+		         <infoActionClassFullClassName>com.yufei.infoExtractor.action.InfoPreAction</infoActionClassFullClassName>
+				 <infoActionType>pre</infoActionType>
+		         </actionConfig>      		
+			 <actionConfig>
+		         <infoActionClassFullClassName>com.yufei.infoExtractor.action.PreTaskCheckAction</infoActionClassFullClassName>
+				 <infoActionType>pre</infoActionType>
+		         </actionConfig>      				
+                 <actionConfig>
+		         <infoActionClassFullClassName>com.yufei.infoExtractor.extractor.UrlExtractor</infoActionClassFullClassName>
+				 <infoActionType>extractor</infoActionType>
+		         </actionConfig>            
+				 <actionConfig>
+		         <infoActionClassFullClassName>com.yufei.infoExtractor.extractor.ContentExtractor</infoActionClassFullClassName>
+				 <infoActionType>extractor</infoActionType>
+		         </actionConfig>      
+                 <actionConfig>
+		         <infoActionClassFullClassName>com.yufei.infoExtractor.action.DataExportToXmlAction</infoActionClassFullClassName>
+				 <infoActionType>export</infoActionType>
+		         </actionConfig>      				 
+		    <actionConfig>
+		         <infoActionClassFullClassName>com.yufei.infoExtractor.action.InfoPostAction</infoActionClassFullClassName>
+				 <infoActionType>post</infoActionType>
+		         </actionConfig>      		
+		   
+		    </actionConfigs>
+			
+					
+					
+
+        </task>
+    </tasks>
+</taskConfig>
